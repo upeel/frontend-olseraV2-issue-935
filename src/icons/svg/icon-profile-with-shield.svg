@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="64" viewBox="0 0 82 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6fcfee"/>
+      <stop offset="1" stop-color="#2bc5f4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_25271" data-name="Group 25271" transform="translate(-32 -521.005)">
+    <path id="Icon_awesome-user-shield" data-name="Icon awesome-user-shield" d="M28,32A16,16,0,1,0,12,16,16,16,0,0,0,28,32Zm12,5a7.1,7.1,0,0,1,.138-.9c-.312-.012-.613-.1-.938-.1H37.112a21.759,21.759,0,0,1-18.225,0H16.8A16.8,16.8,0,0,0,0,52.8V58a6,6,0,0,0,6,6H50a6.152,6.152,0,0,0,2.4-.5A33.585,33.585,0,0,1,40,37Z" transform="translate(32 521.005)" fill="#1685c7"/>
+    <path id="Icon_awesome-user-shield-2" data-name="Icon awesome-user-shield" d="M77.788,33.887l-14.4-5.625a3.874,3.874,0,0,0-2.775,0l-14.4,5.625A3.38,3.38,0,0,0,44,37c0,13.95,8.588,23.6,16.613,26.737a3.878,3.878,0,0,0,2.775,0C69.8,61.237,80,52.563,80,37A3.38,3.38,0,0,0,77.788,33.887ZM62,57.8V34.162l11.937,4.662C73.238,49.712,66.325,55.75,62,57.8Z" transform="translate(34 521.01)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

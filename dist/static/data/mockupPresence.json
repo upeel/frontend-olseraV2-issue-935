@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "fdate": "8/21/2021",
+    "fshift_datetime": "5/6/2021",
+    "employee_name": "Nonna Grimbleby",
+    "time_coming": "8:11",
+    "time_going": "15:19",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  },
+  {
+    "id": 2,
+    "fdate": "1/21/2021",
+    "fshift_datetime": "9/27/2021",
+    "employee_name": "Constance Gianni",
+    "time_coming": "8:25",
+    "time_going": "15:17",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  },
+  {
+    "id": 3,
+    "fdate": "5/11/2021",
+    "fshift_datetime": "10/5/2021",
+    "employee_name": "Anson Pedican",
+    "time_coming": "9:27",
+    "time_going": "16:07",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  },
+  {
+    "id": 4,
+    "fdate": "2/25/2021",
+    "fshift_datetime": "1/11/2021",
+    "employee_name": "Ketty Sparshatt",
+    "time_coming": "8:19",
+    "time_going": "13:34",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  },
+  {
+    "id": 5,
+    "fdate": "3/8/2021",
+    "fshift_datetime": "5/31/2021",
+    "employee_name": "Arlinda Senner",
+    "time_coming": "8:56",
+    "time_going": "14:31",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  },
+  {
+    "id": 6,
+    "fdate": "5/16/2021",
+    "fshift_datetime": "3/2/2021",
+    "employee_name": "Annie Laminman",
+    "time_coming": "8:31",
+    "time_going": "15:09",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  },
+  {
+    "id": 7,
+    "fdate": "4/12/2021",
+    "fshift_datetime": "4/23/2021",
+    "employee_name": "Avrom Pyecroft",
+    "time_coming": "9:47",
+    "time_going": "14:31",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  },
+  {
+    "id": 8,
+    "fdate": "1/15/2021",
+    "fshift_datetime": "2/1/2021",
+    "employee_name": "Rhetta Olivari",
+    "time_coming": "9:33",
+    "time_going": "16:40",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  },
+  {
+    "id": 9,
+    "fdate": "12/27/2020",
+    "fshift_datetime": "10/3/2021",
+    "employee_name": "Elmo Hartwright",
+    "time_coming": "9:32",
+    "time_going": "13:57",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  },
+  {
+    "id": 10,
+    "fdate": "3/24/2021",
+    "fshift_datetime": "1/24/2021",
+    "employee_name": "Inge MacNalley",
+    "time_coming": "9:25",
+    "time_going": "16:44",
+    "fduration": "6 Jam",
+    "ftime_earlier": "1 Jam",
+    "ftime_late": "30 Menit",
+    "fovertime": "1 Jam"
+  }
+]

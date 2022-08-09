@@ -1,0 +1,197 @@
+$nestable-root-class: dd;
+$nestable-list-class: dd-list;
+$nestable-item-class: dd-item;
+$nestable-drag-class: dd-dragel;
+$nestable-handle-class: dd-handle;
+$nestable-collapsed-class: dd-collapsed;
+$nestable-placeholder-class: dd-placeholder;
+$nestable-no-children-class: dd-nochildren;
+$nestable-empty-class: dd-empty;
+
+.dragArea {
+  min-height: 0px;
+}
+
+.has-children {
+  border-left: 2px solid #5CB4FF;
+  .#{$nestable-handle-class},
+  .#{$nestable-item-class} {
+    margin-bottom: 0;
+  }
+  .#{$nestable-handle-class} {
+    background: #F5F5F5;
+  }
+  ol {
+    .#{$nestable-handle-class} {
+      background: #fff;
+    }
+  }
+}
+
+.#{$nestable-root-class} {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 600px;
+  list-style: none;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.#{$nestable-list-class} {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &.children {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .#{$nestable-list-class} {
+    padding-left: 20px;
+  }
+}
+
+.#{$nestable-item-class},
+.#{$nestable-empty-class},
+.#{$nestable-placeholder-class} {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.#{$nestable-item-class} {
+  margin-bottom: 12px;
+}
+
+.#{$nestable-handle-class} {
+  position: relative;
+  display: block;
+  height: auto;
+  padding: 5px 10px 5px 40px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #eee;
+  background: #fff;
+  box-sizing: border-box;
+  touch-action: none;
+  &:hover {
+    color: #2ea8e5;
+    background: #fff;
+  }
+  .hand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40px;
+    line-height: 100%;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    i {
+      position: absolute;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      margin: auto;
+      left:0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      display: block;
+    }
+  }
+}
+
+.#{$nestable-item-class} > button {
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 25px;
+  height: 20px;
+  margin: 5px 0;
+  padding: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+
+  &:before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  &.dd-expand:before {
+    content: '+';
+  }
+
+  &.dd-collapse:before {
+    content: '-';
+  }
+}
+
+.dd-expand {
+  display: none;
+}
+.#{$nestable-collapsed-class} .#{$nestable-list-class},
+.#{$nestable-collapsed-class} .dd-collapse {
+  display: none;
+}
+.#{$nestable-collapsed-class} .dd-expand {
+  display: block;
+}
+
+.#{$nestable-empty-class},
+.#{$nestable-placeholder-class} {
+  margin: 5px 0;
+  padding: 0;
+  min-height: 30px;
+  background: #f2fbff;
+  border: 1px dashed #b6bcbf;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.#{$nestable-empty-class} {
+  border: 1px dashed #bbb;
+  min-height: 100px;
+  background-color: #e5e5e5;
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.#{$nestable-drag-class} {
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+
+  &> .#{$nestable-item-class} .#{$nestable-handle-class} {
+    margin-top: 0;
+  }
+
+  .#{$nestable-handle-class} {
+    box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+  }
+}
+
+.#{$nestable-no-children-class} .#{$nestable-placeholder-class} {
+  display: none;
+}

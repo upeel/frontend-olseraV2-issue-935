@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "photo": "http://dummyimage.com/203x100.png/ff4444/ffffff",
+    "name": "Brittney Scullion",
+    "department": "Health"
+  },
+  {
+    "id": 2,
+    "photo": "http://dummyimage.com/174x100.png/dddddd/000000",
+    "name": "Eugine Bartolomeazzi",
+    "department": "Books"
+  },
+  {
+    "id": 3,
+    "photo": "http://dummyimage.com/166x100.png/cc0000/ffffff",
+    "name": "Adolpho Rassell",
+    "department": "Baby"
+  },
+  {
+    "id": 4,
+    "photo": "http://dummyimage.com/124x100.png/ff4444/ffffff",
+    "name": "Evan McCathy",
+    "department": "Toys"
+  },
+  {
+    "id": 5,
+    "photo": "http://dummyimage.com/216x100.png/ff4444/ffffff",
+    "name": "Matteo Freyn",
+    "department": "Books"
+  },
+  {
+    "id": 6,
+    "photo": "http://dummyimage.com/188x100.png/cc0000/ffffff",
+    "name": "Waring Marnes",
+    "department": "Automotive"
+  },
+  {
+    "id": 7,
+    "photo": "http://dummyimage.com/163x100.png/dddddd/000000",
+    "name": "Shannen Dinis",
+    "department": "Music"
+  },
+  {
+    "id": 8,
+    "photo": "http://dummyimage.com/215x100.png/cc0000/ffffff",
+    "name": "Haley Hansana",
+    "department": "Toys"
+  },
+  {
+    "id": 9,
+    "photo": "http://dummyimage.com/120x100.png/cc0000/ffffff",
+    "name": "Tybalt Beek",
+    "department": "Outdoors"
+  },
+  {
+    "id": 10,
+    "photo": "http://dummyimage.com/110x100.png/5fa2dd/ffffff",
+    "name": "Elladine Broddle",
+    "department": "Electronics"
+  }
+]

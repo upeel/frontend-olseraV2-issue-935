@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="498" height="144" viewBox="0 0 498 144">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_23223" data-name="Group 23223" transform="translate(12198 102)">
+    <g id="Rectangle_1978" data-name="Rectangle 1978" transform="translate(-12198 -102)" fill="#fff" stroke="#cecece" stroke-width="1">
+      <rect width="498" height="144" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="497" height="143" rx="9.5" fill="none"/>
+    </g>
+    <g id="Group_23218" data-name="Group 23218" transform="translate(45 -147)">
+      <g id="Group_23219" data-name="Group 23219" transform="translate(320)">
+        <rect id="Rectangle_1979" data-name="Rectangle 1979" width="122" height="96" rx="8" transform="translate(-12211 69)" fill="#f2f4f7"/>
+        <g id="Group_23214" data-name="Group 23214">
+          <text id="Shipping" transform="translate(-12163 102)" fill="#272727" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Shipping</tspan></text>
+          <g id="Group_23216" data-name="Group 23216">
+            <rect id="Rectangle_1980" data-name="Rectangle 1980" width="24" height="24" transform="translate(-12195 85)" fill="none"/>
+            <g id="check" transform="translate(-12195 85)" clip-path="url(#clip-path)">
+              <g id="Rectangle_1037" data-name="Rectangle 1037" fill="none" stroke="#0085cd" stroke-width="1">
+                <rect width="24" height="24" rx="5" stroke="none"/>
+                <rect x="0.5" y="0.5" width="23" height="23" rx="4.5" fill="none"/>
+              </g>
+              <path id="check-2" data-name="check" d="M14,6,7.125,12.875,4,9.75" transform="translate(3.5 2.5)" fill="none" stroke="#0085cd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_23220" data-name="Group 23220" transform="translate(0 40)">
+          <text id="Discount" transform="translate(-12163 102)" fill="#272727" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Discount</tspan></text>
+          <g id="Group_23216-2" data-name="Group 23216">
+            <rect id="Rectangle_1980-2" data-name="Rectangle 1980" width="24" height="24" transform="translate(-12195 85)" fill="none"/>
+            <g id="check-3" data-name="check" transform="translate(-12195 85)" clip-path="url(#clip-path)">
+              <g id="Rectangle_1037-2" data-name="Rectangle 1037" fill="none" stroke="#0085cd" stroke-width="1">
+                <rect width="24" height="24" rx="5" stroke="none"/>
+                <rect x="0.5" y="0.5" width="23" height="23" rx="4.5" fill="none"/>
+              </g>
+              <path id="check-4" data-name="check" d="M14,6,7.125,12.875,4,9.75" transform="translate(3.5 2.5)" fill="none" stroke="#0085cd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="more_right" data-name="more right" transform="translate(-11931 77)">
+        <g id="circle_40" data-name="circle 40" transform="translate(-308 -16)">
+          <circle id="Ellipse_8" data-name="Ellipse 8" cx="20" cy="20" r="20" transform="translate(308 16)" fill="none"/>
+        </g>
+        <path id="chevron-right" d="M9,14l4-4L9,6" transform="translate(9 10)" fill="none" stroke="#272727" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_23217" data-name="Group 23217" transform="translate(150)">
+        <rect id="Rectangle_1979-2" data-name="Rectangle 1979" width="130" height="56" rx="8" transform="translate(-12211 69)" fill="#f2f4f7"/>
+        <g id="Group_23214-2" data-name="Group 23214">
+          <text id="Purchases" transform="translate(-12163 102)" fill="#272727" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Purchases</tspan></text>
+          <g id="Group_23216-3" data-name="Group 23216">
+            <rect id="Rectangle_1980-3" data-name="Rectangle 1980" width="24" height="24" transform="translate(-12195 85)" fill="none"/>
+            <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(-12195 85.999)">
+              <path id="Path_31166" data-name="Path 31166" d="M9.909,20.952A.955.955,0,1,1,8.955,20,.953.953,0,0,1,9.909,20.952Z" transform="translate(-0.318 -0.905)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              <path id="Path_31167" data-name="Path 31167" d="M20.909,20.952A.955.955,0,1,1,19.955,20,.953.953,0,0,1,20.909,20.952Z" transform="translate(-0.818 -0.905)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              <path id="Path_31168" data-name="Path 31168" d="M1,1H4.818L7.376,13.752a1.908,1.908,0,0,0,1.909,1.533h9.278a1.908,1.908,0,0,0,1.909-1.533L22,5.762H5.773" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="more_right-2" data-name="more right" transform="translate(-12101 77)">
+        <g id="circle_40-2" data-name="circle 40" transform="translate(-308 -16)">
+          <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="20" cy="20" r="20" transform="translate(308 16)" fill="none"/>
+        </g>
+        <path id="chevron-right-2" data-name="chevron-right" d="M9,14l4-4L9,6" transform="translate(9 10)" fill="none" stroke="#272727" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Group_23213" data-name="Group 23213" transform="translate(-8)">
+        <rect id="Rectangle_1979-3" data-name="Rectangle 1979" width="118" height="56" rx="8" transform="translate(-12211 69)" fill="#f2f4f7"/>
+        <g id="Group_23214-3" data-name="Group 23214">
+          <text id="Settings" transform="translate(-12163 102)" fill="#272727" font-size="14" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="0">Settings</tspan></text>
+          <g id="Group_23216-4" data-name="Group 23216">
+            <rect id="Rectangle_1980-4" data-name="Rectangle 1980" width="24" height="24" transform="translate(-12195 85)" fill="none"/>
+            <g id="Icon_feather-settings" data-name="Icon feather-settings" transform="translate(-12195 85)">
+              <path id="Path_31162" data-name="Path 31162" d="M15,12a3,3,0,1,1-3-3A3,3,0,0,1,15,12Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+              <path id="Path_31163" data-name="Path 31163" d="M19.4,15a1.65,1.65,0,0,0,.33,1.82l.06.06a2,2,0,1,1-2.83,2.83l-.06-.06a1.663,1.663,0,0,0-2.82,1.18V21a2,2,0,0,1-4,0v-.09A1.65,1.65,0,0,0,9,19.4a1.65,1.65,0,0,0-1.82.33l-.06.06a2,2,0,1,1-2.83-2.83l.06-.06a1.663,1.663,0,0,0-1.18-2.82H3a2,2,0,1,1,0-4h.09A1.65,1.65,0,0,0,4.6,9a1.65,1.65,0,0,0-.33-1.82l-.06-.06A2,2,0,1,1,7.04,4.29l.06.06a1.65,1.65,0,0,0,1.82.33H9a1.65,1.65,0,0,0,1-1.51V3a2,2,0,0,1,4,0v.09a1.663,1.663,0,0,0,2.82,1.18l.06-.06a2,2,0,1,1,2.83,2.83l-.06.06a1.65,1.65,0,0,0-.33,1.82V9a1.65,1.65,0,0,0,1.51,1H21a2,2,0,0,1,0,4h-.09A1.65,1.65,0,0,0,19.4,15Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

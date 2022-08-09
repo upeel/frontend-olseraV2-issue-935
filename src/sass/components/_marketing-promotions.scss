@@ -1,0 +1,115 @@
+.newfeature-banner {
+  background: rgb(230,248,255);
+  background: linear-gradient(180deg, rgba(230,248,255,1) 0%, rgba(206,242,255,1) 50%);
+  padding: 68px 24px;
+  border-radius: 2px;
+  box-shadow: 0px 3px 6px rgba(#eee, 1);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+  h1, h3 {
+    margin: 0 0 0 0;
+    color: #0085CD;
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  h1 {
+    font-weight: Bold;
+  }
+  h3 {
+    font-weight: normal;
+  }
+
+  .rounded-1 {
+    position: absolute;
+    content: '';
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    right: 24px;
+    bottom: -120px;
+    background: rgb(22,133,199);
+    background: linear-gradient(180deg, rgba(22,133,199,1) 0%, rgba(27,180,230,1) 50%);
+  }
+
+  .rounded-2 {
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    right: 184px;
+    bottom: -100px;
+    background: #5DC0FF;
+  }
+}
+
+.promotion-materials {
+  &--item {
+    background: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    margin-bottom: 32px;
+    transition: background 0.2s linear;
+    &.selected {
+      background: $colorPrimarySoft;
+      .promotion-materials--thumbnail {
+        padding: 8px;
+      }
+    }
+  }
+
+  &--thumbnail {
+    transition: padding 0.2s ease-in;
+    // background-size: cover;
+    // background-position: center center;
+    border-radius: 5px;
+    position: relative;
+    // overflow: hidden;
+    line-height: 1;
+    height: 237px;
+    cursor: pointer;
+    &--image {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    &:hover {
+      &:before {
+        opacity: 0.5;
+      }
+    }
+    &:before {
+      background-color: #000;
+      transition: opacity linear 0.3s;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      content: '';
+    }
+  }
+}
+
+.bannertype-filter {
+  &--item {
+    height: 150px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2px;
+    &.active {
+      color: $colorPrimary;
+      background: $colorPrimarySoft
+    }
+  }
+}

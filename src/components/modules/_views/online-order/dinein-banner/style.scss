@@ -1,0 +1,163 @@
+/* line 31, ../sass/screen.scss */
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+/* line 36, ../sass/screen.scss */
+.font-semibold {
+  font-weight: 600;
+}
+
+/* line 40, ../sass/screen.scss */
+.font-bold {
+  font-weight: 700;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.font-48 {
+  font-size: 48px;
+}
+
+/* line 44, ../sass/screen.scss */
+.font-75 {
+  font-size: 75px;
+}
+
+/* line 48, ../sass/screen.scss */
+.font-128 {
+  font-size: 128px;
+  line-height: 1.4em;
+}
+
+/* line 53, ../sass/screen.scss */
+.font-100 {
+  font-size: 100px;
+  line-height: 1.4em;
+}
+
+.font-108 {
+  font-size: 108px;
+}
+
+/* line 58, ../sass/screen.scss */
+.font-56 {
+  font-size: 56px;
+}
+
+/* line 62, ../sass/screen.scss */
+.mb-section {
+  margin-bottom: 64px;
+  line-height: 130px;
+}
+
+/* line 66, ../sass/screen.scss */
+.body-square {
+  background-image: url(/static/dineinbanner/images/square.png);
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 1748px;
+  height: 1748px;
+  color: #fff;
+  padding: 100px 100px;
+  background-color: #666;
+}
+
+/* line 76, ../sass/screen.scss */
+.body-portrait {
+  background-image: url(/static/dineinbanner/images/portrait.png);
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 1748px;
+  height: auto;
+  color: #fff;
+  padding: 100px 180px;
+  background-color: #666;
+}
+
+/* line 87, ../sass/screen.scss */
+.body-landscape {
+  background-image: url(/static/dineinbanner/images/landscape.png);
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 2480px;
+  height: 1748px;
+  color: #fff;
+  padding: 100px 180px;
+  background-color: #666;
+}
+
+/* line 122, ../sass/screen.scss */
+.qr-placeholder {
+  display: block;
+  background: #fff;
+  box-shadow: 0px 3px 6px #0000001F;
+  padding: 60px;
+  flex-shrink: 0;
+}
+/* line 128, ../sass/screen.scss */
+.qr-placeholder--726 {
+  min-width: 726px;
+  max-width: 726px;
+  height: 726px;
+  border-radius: 82px;
+}
+/* line 134, ../sass/screen.scss */
+.qr-placeholder--600 {
+  min-width: 600px;
+  max-width: 600px;
+  height: 600px;
+  border-radius: 82px;
+}
+/* line 140, ../sass/screen.scss */
+.qr-placeholder--648 {
+  min-width: 648px;
+  max-width: 648px;
+  height: 648px;
+  border-radius: 82px;
+}
+
+/* line 148, ../sass/screen.scss */
+.powered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.powered-landscape {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.powered-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+/* line 156, ../sass/screen.scss */
+.powered img {
+  height: 100px;
+  margin-left: 40px;
+  display: inline-block;
+}
+
+/* line 164, ../sass/screen.scss */
+.body-square .powered {
+  justify-content: flex-end;
+}

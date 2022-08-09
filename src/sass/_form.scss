@@ -1,0 +1,608 @@
+.el-button {
+  // box-shadow: $boxShadow1;
+  &--default {
+    border-color: #f0f0f0;
+  }
+  &.is-disabled,
+  &:active,
+  &--text {
+    box-shadow: none;
+  }
+}
+
+.form-more-label {
+  font-size: 10px;
+  margin: 0 0 0 0;
+  line-height: 1; 
+}
+
+.form-in-block-data {
+  padding-top: 20px;
+}
+
+.el-input.is-disabled .el-input__inner {
+  color: #000;
+}
+
+.el-input {
+  &.text-center {
+    .el-input__inner {
+      text-align: center;
+    }
+  }
+  &.color-primary--bg {
+    .el-input__inner {
+      background: $colorPrimary;
+      color: #fff;
+    }
+  }
+}
+
+.el-input-group {
+  // box-shadow: $boxShadow1;
+  border: 1px solid $colorBorderInputDialog;
+  border-radius: 0px;
+  .el-input-group__append,
+  .el-input-group__prepend {
+    border: none;
+  }
+  .el-input__inner {
+    border: none;
+    box-shadow: none !important;
+  }
+}
+
+.el-input__inner,
+.el-textarea,
+.el-textarea__inner {
+	// box-shadow: $boxShadow1;
+	border-color: $colorBorderInputDialog;
+	color: $colorBody;
+	font-weight: bold;
+	border-radius: 0 !important;
+}
+
+.el-radio-group {
+  border-radius: 0;
+  border: none;
+  &__flex {
+    display: flex;
+    width: 100%;
+    .el-radio-button {
+      flex-grow: 1;
+      &__inner {
+        width: 100%;
+      }
+    }
+  }
+  .el-radio-button {
+    border-radius: 0;
+    border: 1px solid $colorBorderInputDialog;
+    border-right: none;
+    &:last-child {
+      border-right: 1px solid $colorBorderInputDialog;
+    }
+  }
+  &.flex-container {
+    .el-radio-button {
+      flex-grow: 1;
+    }
+    .el-radio-button__inner {
+      width: 100%;
+    }
+  }
+}
+
+.dialog-footer {
+  text-align: center;
+  display: block;
+}
+
+.el-dropdown + .el-dropdown {
+  margin-left: 8px;
+}
+
+.input-otp-field {
+  width: 40px !important;
+  height: 40px;
+  margin-right: 4px;
+  text-align: center;
+  font-weight: bold;
+  &--inner {
+    border: 1px solid #E1E2E1;
+    color: #272727;
+    font-weight: bold;
+    border-radius: 0 !important;
+  }
+}
+
+.checkbox-group-block {
+	.el-checkbox {
+		position: relative;
+		display: block;
+		margin: 0 0 0 0;
+		padding: 8px 8px 8px 8px;
+		margin-right: 0;
+		color: $colorBody;
+		font-weight: 600;
+		border: none;
+		&:nth-child(2n) {
+			background: $colorGreySoft;
+		}
+		.el-checkbox__input {
+			position: absolute;
+			right: 11px;
+			top: 11px;
+		}
+  }
+  
+  &--background {
+    .el-checkbox {
+      background: #fff;
+    }
+  }
+
+	&--leftcheck {
+    .el-checkbox {
+      .el-checkbox__input {
+        position: static;
+      }
+    }
+  }
+
+  .edit {
+    position: absolute;
+    display: block;
+    max-width: 320px;
+    text-overflow: ellipsis;
+    top: 10px;
+    right: 15px;
+    padding: 0 0 0 0;
+    overflow: hidden;
+  }
+}
+
+.form-wizard {
+  background: $colorGreenSoft;
+  &--step {
+    display: flex;
+    margin-bottom: 24px;
+    &--item {
+      text-transform: capitalize;
+      // cursor: pointer;
+      flex-grow: 1;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      padding: 8px 12px;
+      color: $colorBody;
+      &.active {
+        background-color: $colorGrabFood;
+        color: #fff;
+        box-shadow: 0px 2px 2px #00000029;
+      }
+      &.current {
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+      }
+      &:last-child {
+        &.current {
+          border-radius: 0;
+        }
+      }
+    }
+  }
+
+  &--content {
+    height: 612px;
+    .wizard-desc,
+    .wizard-content {
+      flex-basis: 50%;
+    }
+
+    .wizard-content {
+      padding: 24px;
+      background: #fff;
+    }
+
+    .wizard-desc {
+      padding: 24px;
+      word-break: keep-all;
+    }
+  }
+}
+
+.dropdown-select-product {
+  .el-select-dropdown__item {
+    height: auto;
+    line-height: 1;
+    padding: 8px 16px;
+    width: 100%;
+  }
+}
+
+.dropdown-select-shift-report {
+  .el-select-dropdown__item {
+    height: auto;
+    padding: 8px 16px;
+    width: 100%;
+  }
+}
+
+.select-grab-product {
+  .el-input__inner {
+    background-color: $colorGrabFood !important;
+    border: unset;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .el-select-dropdown__item {
+    height: auto;
+    line-height: 1;
+    padding: 8px 16px;
+    width: 100%;
+  }
+}
+
+.single-datepicker {
+  .el-button {
+    color: #272727;
+  }
+}
+
+.el-dropdown-menu {
+  background: #fff;
+  border: 1px solid $colorInfo;
+  box-shadow: 0px 3px 6px #0000001F !important;
+  border-radius: 2px !important;
+  &--medium .el-dropdown-menu__item {
+    padding: 19px 10px;
+    line-height: 1;
+  }
+  .el-dropdown-menu__item {
+    min-width: 228px;
+    line-height: 1;
+    background: #fff;
+    &:nth-child(even) {
+      background: #f5f5f5;
+    }
+  }
+}
+
+.save-bottom {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 5;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: $boxShadow1;
+}
+
+.el-autocomplete-suggestion li {
+  white-space: normal;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+
+.ql-html-overlayContainer {
+  .ql-editor {
+    max-height: 100%;
+  }
+}
+
+.el-select__tags .el-select__input {
+  display: block;
+  width: 100% !important;
+}
+
+.el-input-number--medium {
+  min-width: 120px;
+  max-width: 180px;
+  width: auto !important;
+}
+
+.input-money {
+  min-width: 100px;
+}
+
+.el-tag.tag-block {
+  position: relative;
+  display: block;
+  width: 100%;
+  line-height: 1.4em;
+  word-break: break-word;
+  padding: 8px;
+  font-size: 13px;
+  .el-icon-close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.chacheli-designer-control {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.discount-detail {
+  padding-right: 40px;
+}
+.discount-badge {
+  padding: 12px 20px;
+  display: inline-block;
+  background: $colorDanger;
+  color: #fff;
+  border-radius: 16px;
+}
+.discount-badge--title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+.discount-badge--content {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+}
+.card-footer {
+  padding-top: 40px;
+}
+.list-stripped {
+  li:nth-child(even) {
+    background: #f9f9f9;
+  }
+}
+.list-table {
+  li {
+    padding: 15px 20px;
+  }
+}
+.list-item-relative {
+  position: relative;
+  .absolute-right {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+  }
+}
+.force-square-image {
+  width: 62px;
+  height: 62px;
+}
+
+.repeatable-form {
+  .el-form-item {
+    margin-bottom: 10px;
+    p {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.product-comodities {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.chacheli-designer {
+  height: 400px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+
+  &.dragging {
+    cursor: move;
+  }
+}
+
+.chacheli-layout {
+  height: 100%;
+  flex: 1 1 auto;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+
+  &, * {
+    box-sizing: border-box;
+  }
+
+  .chacheli {
+    padding: 5px;
+    position: absolute;
+    > * {
+      height: 100%;
+      display: inline-block;
+    }
+  }
+}
+
+.chacheli-designer-layout {
+  .chacheli {
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+
+    .content,
+    .close {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .content-table {
+      height: 100%;
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+    }
+
+    .close {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      width: 18px;
+      height: 18px;
+      background: #fff;
+      border: 1px solid #666;
+      border-bottom-left-radius: 5px;
+
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        top: 50%;
+        left: 2px;
+        right: 2px;
+        margin-top: -1px;
+        background: #666;
+      }
+      &::before {
+        transform: rotate(45deg);
+      }
+      &::after {
+        transform: rotate(-45deg);
+      }
+
+      &:hover {
+        background-color: rgba(128, 128, 128, 0.1);
+
+        &::before,
+        &::after {
+          background: #999;
+        }
+      }
+    }
+
+    .resize-handle {
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+      width: 13px;
+      height: 13px;
+      cursor: nwse-resize;
+      border: 1px solid #ccc;
+      background: #fff;
+
+      &:hover {
+        background-color: rgba(128, 128, 128, 0.1);
+      }
+    }
+  }
+
+  &.interact .chacheli {
+    transition-property: top, left, width, height;
+    transition-duration: 0.4s;
+  }
+}
+
+.chacheli-designer-layout {
+  flex: 1 1 auto;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+
+  &, * {
+    box-sizing: border-box;
+  }
+
+  .grid {
+    position: absolute;
+    z-index: 1;
+    border-style: solid;
+    border-color: #eee;
+    border-width: 0 1px 1px 0;
+    color: #ddd;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &.right {
+      border-right-width: 0;
+    }
+    &.bottom {
+      border-bottom-width: 0;
+    }
+  }
+
+  .placeholder {
+    position: absolute;
+    z-index: 3;
+    border: 1px solid #ddd;
+    background-color: rgba(160, 160, 160, 0.1);
+    transition: background-color 0.6s;
+
+    &.invalid {
+      border-color: #ffa7a7 !important;
+      background-color: rgba(255, 0, 0, 0.1) !important;
+    }
+  }
+
+  &.interact {
+    &.resize {
+      cursor: nwse-resize;
+    }
+
+    &.drag {
+      cursor: move;
+    }
+
+    &.dnd {
+      .placeholder {
+        border-color: transparent;
+        background-color: rgba(0, 255, 0, 0.1);
+        transition-property: top, left, width, height, background-color;
+        transition-duration: 0.4s, 0.4s, 0.4s, 0.4s, 0.6s;
+      }
+    }
+  }
+}
+
+.chacheli-chooser {
+  padding: 0 10px;
+  border-left: 1px solid #bbb;
+  flex: 0 0 200px;
+  position: relative;
+
+  .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 10px 0;
+    overflow: auto;
+  }
+
+  .chacheli-outer {
+    margin: 0 0 10px;
+  }
+
+  .chacheli {
+    padding: 15px 10px;
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+
+    &.dragging {
+      pointer-events: none;
+      position: fixed;
+      z-index: 1000;
+      opacity: 0.8;
+    }
+  }
+}
+
+.el-form-item__error {
+  padding-top: 0;
+  font-size: 11px;
+}

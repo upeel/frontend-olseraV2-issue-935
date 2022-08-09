@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Trilith",
+    "total_customer": 42,
+    "edited": false
+  },
+  {
+    "id": 2,
+    "name": "Yabox",
+    "total_customer": 59,
+    "edited": false
+  },
+  {
+    "id": 3,
+    "name": "Roomm",
+    "total_customer": 100,
+    "edited": false
+  },
+  {
+    "id": 4,
+    "name": "Topiczoom",
+    "total_customer": 83,
+    "edited": false
+  },
+  {
+    "id": 5,
+    "name": "Meeveo",
+    "total_customer": 77,
+    "edited": false
+  },
+  {
+    "id": 6,
+    "name": "Skalith",
+    "total_customer": 72,
+    "edited": false
+  },
+  {
+    "id": 7,
+    "name": "Jaxbean",
+    "total_customer": 26,
+    "edited": false
+  },
+  {
+    "id": 8,
+    "name": "Oba",
+    "total_customer": 10,
+    "edited": false
+  },
+  {
+    "id": 9,
+    "name": "Jabberbean",
+    "total_customer": 19,
+    "edited": false
+  },
+  {
+    "id": 10,
+    "name": "Fivespan",
+    "total_customer": 52,
+    "edited": false
+  }
+]

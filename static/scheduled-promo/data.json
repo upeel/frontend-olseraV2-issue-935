@@ -1,0 +1,39 @@
+{
+  "0": [],
+  "1": [],
+  "2": [
+    {
+      "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "time": "14:05",
+      "end": "21:00",
+      "custom_header": "<img src='/static/img/addwhatsnew/promo-kertas-thermal.jpeg' alt='promo-kertas' />",
+      "content": "<div>Hai 👋🏼</div> <div> Buat kalian yang butuh Kertas Thermal, Kini Olsera sediakan dengan Harga Terjangkau, Super Murah. Hadir dengan 2 type Lite, ukuran 80x40 dan 57x38 type BP, ukuran 80x47 dan 57x38. </div> <span class='mt-14 mb-4'> Yuk pesan sekarang, hubungi <a class='color-primary font-bold' href='https://bit.ly/3z6Dn5i' target='_blank' > STEVEN </a> </span> <div>Happy Shopping!🤩</div>",
+      "slug": null,
+      "show_olsera_cp": false
+    }
+  ],
+  "3": [
+    {
+      "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "time": "13:05",
+      "end": "15:00",
+      "custom_header": null,
+      "content": "<div class='font-24 font-bold'>AKHIRNYAA!!</div><div class='mt-4 word-break'>Pesan menu kini bisa langsung di <span class='font-bold'>gadget pelanggan Anda!</span><div class='mt-8'>*Khusus F&B Baru Rilis</div></div>",
+      "slug": "gopay-20",
+      "show_olsera_cp": true
+    }
+  ],
+  "4": [],
+  "5": [
+    {
+      "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "time": "12:05",
+      "end": "13:00",
+      "custom_header": null,
+      "content": "<div class='font-24 font-bold'>Bye-bye Buku Menu!</div><div class='mt-4 word-break'>Rumah makan <span class='font-bold'>Aman dan Nyaman</span> dengan <span class='font-bold'>Menu Digital.</span> <br>Pelanggan bisa order langsung! Baru Rilis.</div>",
+      "slug": "gopay-20",
+      "show_olsera_cp": true
+    }
+  ],
+  "6": []
+}

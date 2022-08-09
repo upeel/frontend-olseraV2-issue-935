@@ -1,0 +1,20 @@
+<svg id="ol_-_subscription_2" data-name="ol - subscription 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="71.999" viewBox="0 0 72 71.999">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.489" x2="0.468" y2="0.559" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff2e3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff931e"/>
+      <stop offset="1" stop-color="#fb8300"/>
+    </linearGradient>
+  </defs>
+  <ellipse id="Ellipse_665" data-name="Ellipse 665" cx="36" cy="36" rx="36" ry="36" fill="url(#linear-gradient)"/>
+  <g id="Group_25071" data-name="Group 25071" transform="translate(-3286 4901)">
+    <path id="Path_40333" data-name="Path 40333" d="M5,0H24a5,5,0,0,1,5,5V41a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(3308 -4888)" fill="url(#linear-gradient-2)"/>
+    <g id="Group_25067" data-name="Group 25067" transform="translate(3312 -4883)">
+      <path id="Path_40334" data-name="Path 40334" d="M2,0H19a2,2,0,0,1,2,2V27a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#fff"/>
+      <path id="Path_40335" data-name="Path 40335" d="M3.5,0A3.5,3.5,0,1,1,0,3.5,3.5,3.5,0,0,1,3.5,0Z" transform="translate(7 31)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

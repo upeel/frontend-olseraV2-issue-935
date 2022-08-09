@@ -1,0 +1,92 @@
+[
+  {
+    "purchase_no": "8327187759",
+    "fpurchase_date": "5/8/2021",
+    "supplier_name": "Teklist",
+    "notes": "Matern care for known or susp placntl insuff, first tri, oth",
+    "ftotal_amount": 1000000,
+    "status": false,
+    "status_desc": "2433"
+  },
+  {
+    "purchase_no": "3704776564",
+    "fpurchase_date": "3/6/2021",
+    "supplier_name": "Yata",
+    "notes": "Lac w fb of r frnt wl of thorax w penet thor cavity, subs",
+    "ftotal_amount": 1000000,
+    "status": true,
+    "status_desc": "430 01"
+  },
+  {
+    "purchase_no": "3890629040",
+    "fpurchase_date": "11/21/2021",
+    "supplier_name": "Katz",
+    "notes": "Nondisp fx of less trochanter of l femr, 7thR",
+    "ftotal_amount": 1000000,
+    "status": false,
+    "status_desc": "E3G"
+  },
+  {
+    "purchase_no": "8404079625",
+    "fpurchase_date": "6/26/2021",
+    "supplier_name": "Eadel",
+    "notes": "Displaced comminuted fracture of shaft of unspecified tibia",
+    "ftotal_amount": 1000000,
+    "status": false,
+    "status_desc": "341 92"
+  },
+  {
+    "purchase_no": "2594688266",
+    "fpurchase_date": "5/3/2021",
+    "supplier_name": "Jamia",
+    "notes": "Displ spiral fx shaft of ulna, r arm, 7thJ",
+    "ftotal_amount": 1000000,
+    "status": false,
+    "status_desc": "64234 CEDEX"
+  },
+  {
+    "purchase_no": "1766560334",
+    "fpurchase_date": "8/27/2021",
+    "supplier_name": "Blogtags",
+    "notes": "Oth fracture of first lumbar vertebra, init for opn fx",
+    "ftotal_amount": 1000000,
+    "status": false,
+    "status_desc": null
+  },
+  {
+    "purchase_no": "4998317172",
+    "fpurchase_date": "1/27/2021",
+    "supplier_name": "Zoovu",
+    "notes": "Cervical shortening",
+    "ftotal_amount": 1000000,
+    "status": false,
+    "status_desc": "97640"
+  },
+  {
+    "purchase_no": "5588092910",
+    "fpurchase_date": "11/7/2021",
+    "supplier_name": "Rhyzio",
+    "notes": "Other chondrocalcinosis, unspecified elbow",
+    "ftotal_amount": 1000000,
+    "status": false,
+    "status_desc": null
+  },
+  {
+    "purchase_no": "0184458528",
+    "fpurchase_date": "7/15/2021",
+    "supplier_name": "Mycat",
+    "notes": "Sltr-haris Type III physl fx lower end of unsp femur, sqla",
+    "ftotal_amount": 1000000,
+    "status": true,
+    "status_desc": null
+  },
+  {
+    "purchase_no": "0393935191",
+    "fpurchase_date": "6/10/2021",
+    "supplier_name": "Youtags",
+    "notes": "Unspecified dislocation of unspecified thumb, subs encntr",
+    "ftotal_amount": 1000000,
+    "status": true,
+    "status_desc": null
+  }
+]

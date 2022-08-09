@@ -1,0 +1,12 @@
+.sticky-bottom,
+.sticky-top-has-submenu {
+  position: sticky;
+  z-index: 9;
+  background-color: #fff;
+}
+.sticky-top-has-submenu {
+  top: 100px;
+}
+.sticky-bottom {
+  bottom: 0;
+}

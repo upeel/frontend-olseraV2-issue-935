@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="24" viewBox="0 0 21 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6fcfee"/>
+      <stop offset="1" stop-color="#2bc5f4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_25286" data-name="Group 25286" transform="translate(-6867 -1002)">
+    <path id="Icon_material-verified-user" data-name="Icon material-verified-user" d="M15,1.5,4.5,5.864v6.545A13.742,13.742,0,0,0,15,25.5,13.742,13.742,0,0,0,25.5,12.409V5.864Z" transform="translate(6862.5 1000.5)" fill="url(#linear-gradient)"/>
+    <path id="Icon_feather-check" data-name="Icon feather-check" d="M8.61,16.5a.948.948,0,0,1-.678-.286l-3.151-3.2a.987.987,0,0,1,0-1.379.948.948,0,0,1,1.356,0L8.61,14.145l6.253-6.36a.948.948,0,0,1,1.356,0,.987.987,0,0,1,0,1.379L9.288,16.214A.948.948,0,0,1,8.61,16.5Z" transform="translate(6867 1002)" fill="#fff"/>
+  </g>
+</svg>

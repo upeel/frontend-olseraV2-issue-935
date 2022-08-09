@@ -1,0 +1,128 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272.5" height="408" viewBox="0 0 272.5 408">
+<defs>
+<filter id="a" x="0" y="0" width="272" height="408" filterUnits="userSpaceOnUse">
+  <feOffset dy="2" input="SourceAlpha"/>
+  <feGaussianBlur stdDeviation="1" result="b"/>
+  <feFlood flood-opacity="0.122"/>
+  <feComposite operator="in" in2="b"/>
+  <feComposite in="SourceGraphic"/>
+</filter>
+<filter id="c" x="215.5" y="96.5" width="57" height="33" filterUnits="userSpaceOnUse">
+  <feOffset dy="2" input="SourceAlpha"/>
+  <feGaussianBlur stdDeviation="1.5" result="d"/>
+  <feFlood flood-opacity="0.161"/><feComposite operator="in" in2="d"/>
+  <feComposite in="SourceGraphic"/>
+</filter>
+<filter id="e" x="215.5" y="173.5" width="57" height="33" filterUnits="userSpaceOnUse">
+  <feOffset dy="2" input="SourceAlpha"/>
+  <feGaussianBlur stdDeviation="1.5" result="f"/>
+  <feFlood flood-opacity="0.161"/>
+  <feComposite operator="in" in2="f"/>
+  <feComposite in="SourceGraphic"/>
+</filter>
+<filter id="g" x="215.5" y="250.5" width="57" height="33" filterUnits="userSpaceOnUse">
+  <feOffset dy="2" input="SourceAlpha"/>
+  <feGaussianBlur stdDeviation="1.5" result="h"/>
+  <feFlood flood-opacity="0.161"/>
+  <feComposite operator="in" in2="h"/>
+  <feComposite in="SourceGraphic"/>
+</filter>
+<filter id="i" x="11" y="332" width="250" height="66" filterUnits="userSpaceOnUse">
+  <feOffset dy="3" input="SourceAlpha"/>
+  <feGaussianBlur stdDeviation="3" result="j"/>
+  <feFlood flood-opacity="0.078"/>
+  <feComposite operator="in" in2="j"/>
+  <feComposite in="SourceGraphic"/>
+</filter>
+<filter id="k" x="155" y="340" width="98" height="50" filterUnits="userSpaceOnUse">
+<feOffset dy="3" input="SourceAlpha"/>
+<feGaussianBlur stdDeviation="3" result="l"/>
+<feFlood flood-opacity="0.122"/><feComposite operator="in" in2="l"/>
+<feComposite in="SourceGraphic"/>
+</filter>
+</defs>
+<g transform="translate(4 2)">
+<g class="n" transform="matrix(1, 0, 0, 1, -4, -2)">
+<g class="a" transform="translate(4 2)">
+<rect class="g" width="264" height="400" rx="2"/>
+<rect class="h" x="-0.5" y="-0.5" width="265" height="401" rx="2.5"/>
+</g>
+</g>
+<g transform="translate(0 89)">
+<rect class="b" width="264" height="69"/>
+<g transform="translate(16 8)">
+<rect class="c" width="53" height="53" rx="8"/>
+<rect class="c" width="122" height="16" rx="8" transform="translate(63)"/>
+<rect class="c" width="122" height="16" rx="8" transform="translate(63 24)"/>
+</g>
+<g class="m" transform="matrix(1, 0, 0, 1, -4, -91)">
+<path :style="color1" d="M12,0H48a0,0,0,0,1,0,0V24a0,0,0,0,1,0,0H12A12,12,0,0,1,0,12v0A12,12,0,0,1,12,0Z" transform="translate(220 99)"/>
+</g>
+</g>
+<g transform="translate(0 166)">
+<rect class="b" width="264" height="69"/>
+<g transform="translate(16 8)">
+<rect class="c" width="53" height="53" rx="8"/>
+<rect class="c" width="122" height="16" rx="8" transform="translate(63)"/>
+<rect class="c" width="122" height="16" rx="8" transform="translate(63 24)"/>
+</g>
+<g class="l" transform="matrix(1, 0, 0, 1, -4, -168)">
+<path :style="color1" d="M12,0H48a0,0,0,0,1,0,0V24a0,0,0,0,1,0,0H12A12,12,0,0,1,0,12v0A12,12,0,0,1,12,0Z" transform="translate(220 176)"/>
+</g>
+</g>
+<g transform="translate(0 243)">
+<rect class="b" width="264" height="69"/>
+<g transform="translate(16 8)">
+<rect class="c" width="53" height="53" rx="8"/>
+<rect class="c" width="122" height="16" rx="8" transform="translate(63)"/>
+<rect class="c" width="122" height="16" rx="8" transform="translate(63 24)"/>
+</g>
+<g class="k" transform="matrix(1, 0, 0, 1, -4, -245)">
+<path :style="color1" d="M12,0H48a0,0,0,0,1,0,0V24a0,0,0,0,1,0,0H12A12,12,0,0,1,0,12v0A12,12,0,0,1,12,0Z" transform="translate(220 253)"/>
+</g>
+</g>
+<g transform="translate(0 -240)">
+<g class="j" transform="matrix(1, 0, 0, 1, -4, 238)">
+<rect :style="color1" width="232" height="48" rx="4" transform="translate(20 338)"/>
+</g>
+<g transform="translate(160 584)">
+<g class="i" transform="matrix(1, 0, 0, 1, -164, -346)">
+<rect class="b" width="80" height="32" rx="4" transform="translate(164 346)"/>
+</g>
+</g>
+<text class="e" transform="translate(32 605)">
+<tspan x="0" y="0">TEXT</tspan>
+</text>
+</g>
+<rect class="b" width="264" height="48"/>
+<g transform="translate(23)">
+<circle :style="color1" cx="11.5" cy="11.5" r="11.5" transform="translate(144 13)"/>
+<rect class="c" width="56" height="16" rx="8" transform="translate(177 17)"/>
+</g>
+<rect class="c" width="20" height="20" rx="5" transform="translate(16 13)"/>
+<rect :style="color2" width="53" height="16" rx="8" transform="translate(16 64)"/>
+</g>
+</svg>
+</template>
+<script>
+export default {
+  props: ['color1', 'color2'],
+}
+</script>
+<style>
+.a,.b,.e{fill:#fff;}
+.a{stroke:#eee;}
+.c{fill:#f5f5f5;}
+.d{fill:#38b8ff;}
+.e{font-size:16px;font-family:Nunito-Black, Nunito;font-weight:800;}
+.f{fill:#76ccfc;}
+.g{stroke:none;}
+.h{fill:none;}
+.i{filter:url(#k);}
+.j{filter:url(#i);}
+.k{filter:url(#g);}
+.l{filter:url(#e);}
+.m{filter:url(#c);}
+.n{filter:url(#a);}
+</style>

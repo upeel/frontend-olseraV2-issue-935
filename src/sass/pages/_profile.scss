@@ -1,0 +1,37 @@
+.photo-avatar-edit {
+  position: relative;
+  .el-image:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    content: '';
+    display: block;
+    background-color: rgba(#000, 0.4);
+    opacity: 0;
+    transition: all 0.3s linear;
+    z-index: 2;
+    border-radius: 100%;
+  }
+  &:hover {
+    .el-image:before,
+    .photo-avatar-edit--trigger {
+      opacity: 1;
+    }
+  }
+  &--trigger {
+    transition: all 0.3s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 32px;
+    color: #fff;
+    opacity: 0;
+    z-index: 3;
+  }
+}

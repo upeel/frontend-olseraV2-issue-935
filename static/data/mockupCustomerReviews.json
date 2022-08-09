@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "customer_name": "Trilith",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  },
+  {
+    "id": 2,
+    "customer_name": "Yabox",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  },
+  {
+    "id": 3,
+    "customer_name": "Roomm",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  },
+  {
+    "id": 4,
+    "customer_name": "Topiczoom",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  },
+  {
+    "id": 5,
+    "customer_name": "Meeveo",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  },
+  {
+    "id": 6,
+    "customer_name": "Skalith",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  },
+  {
+    "id": 7,
+    "customer_name": "Jaxbean",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  },
+  {
+    "id": 8,
+    "customer_name": "Oba",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  },
+  {
+    "id": 9,
+    "customer_name": "Jabberbean",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  },
+  {
+    "id": 10,
+    "customer_name": "Fivespan",
+    "fcreated_time": "11/18/2021",
+    "deal_title": "Tablet",
+    "product_name": "Xiomi Pad 2",
+    "rating": 5,
+    "comment": "Good product",
+    "edited": false
+  }
+]

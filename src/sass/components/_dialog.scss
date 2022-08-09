@@ -1,0 +1,98 @@
+.el-dialog {
+  margin-top: 40px !important;
+  overflow: hidden;
+  &__header {
+    padding-top: 8px;
+  }
+  &.is-fullscreen {
+    margin-top: 0 !important;
+    > .el-dialog__header {
+      text-align: center;
+      position: sticky;
+      top: 0;
+      padding: 20px;
+      z-index: 9;
+      background-color: #fff;
+      height: 64px;
+    }
+  }
+  .scrollable-dialog-body {
+    max-height: calc(65vh - 40px);
+    overflow: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &.dialog-transparent {
+    background: transparent;
+    box-shadow: none;
+  }
+  &.without-header {
+    .el-dialog__header {
+      display: none;
+    }
+  }
+  &.body-p-null {
+    .el-dialog__body {
+      padding: 0 0 0 0;
+    }
+  }
+}
+
+.fixed-dialog.el-dialog {
+  .el-dialog__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 12px;
+    background: #fff;
+    z-index: 1;
+  }
+  .fixed-dialog--header {
+    position: relative;
+    &--title {
+      font-size: 24px;
+      font-weight: 600;
+    }
+    &--buttons {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .el-dialog__body {
+    padding-top: 78px;
+    word-break: keep-all;
+  }
+}
+
+.el-message-box__wrapper {
+  .el-message-box__header {
+    display: none;
+  }
+  .el-message-box__btns {
+    text-align: center;
+    .el-button {
+      display: block;
+      width: 100%;
+      margin-bottom: 4px;
+      &--primary {
+        background: $colorDanger;
+        border-color: $colorDanger;
+        color: #fff;
+      }
+    }
+    .el-button + .el-button {
+      margin-left: 0 !important;
+    }
+  }
+}
+
+.v-modal {
+  opacity: 0.75;
+}

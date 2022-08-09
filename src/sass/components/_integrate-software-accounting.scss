@@ -1,0 +1,338 @@
+.accounting-software-header{
+  background: linear-gradient(141deg, #ffffff 21%, #FEE8E6 91%);
+  padding: 20px 20px;
+  border-radius: 2px;
+  box-shadow: 0px 3px 6px rgba(#eee, 1);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+  .acc-link-image{
+    max-width: 250px;
+    padding: 10px 0 0 0;
+  }
+}
+
+.btn-unlink{
+  padding: 10px 12px;
+  right: 10px; 
+  position: absolute;
+}
+
+.card-software-acc{
+  .el-card__body{
+    padding: 8px 20px;
+    font-weight: Bold;
+    img{
+      max-width: 50px;
+      padding: 0 10px 0 0;
+    }
+    i{
+      font-weight: bold;
+      margin-top: 9px;
+    }
+  }
+  .content-software{
+    font-weight: normal;
+    img{
+      max-width: 100%;
+      padding: 10px 0 20px 0;
+    }
+  }
+}
+
+.jurnal-dialog{
+  background-image: url('/static/img/accounting-third/round-half1.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  .el-dialog__header{
+    padding: -1px 20px 10px;
+  }
+  img{
+    max-width: 221px;
+  }
+  .el-dialog__body{
+    .information-content{
+      word-break: break-word;
+      margin: 20px 0;
+      width: 100%; 
+      text-align: left;
+    }
+  }
+}
+
+.jurnal-inject-dialog{
+  background-image: url('/static/img/accounting-third/round-half1.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  .el-dialog__header{
+    padding: -1px 20px 10px;
+  }
+  img{
+    max-width: 350px;
+  }
+  .el-dialog__body{
+    .information-content{
+      word-break: break-word;
+      margin: 20px 0;
+      width: 100%; 
+      text-align: left;
+    }
+
+    .el-button{ 
+      width: 100%;
+    }
+  }
+}
+
+.unlink-jurnal-dialog{
+  background-image: url('/static/img/accounting-third/round-half1.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-blend-mode: hard-light;
+  .el-dialog__header{
+    padding: -1px 20px 10px;
+  }
+  img{
+    max-width: 221px;
+  }
+  .el-dialog__body{
+    .information-content{
+      word-break: break-word;
+      margin: 20px 0;
+      width: 100%; 
+      text-align: left;
+    }
+    .el-button{
+      width: 100%; 
+    }
+
+    .svg-icon{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 40px;
+      color: #f56c6c;
+    }
+  }
+}
+
+.title-jurnal{
+  text-align: left;
+  max-height: 100px;
+  margin-bottom: 20px;
+}
+
+.tag-jurnal-info {
+	color: #606266; 
+  width: 100%;
+	position: relative;
+	margin-top: 5px;
+	// padding-left: 35px;
+  cursor: pointer;
+	border-radius: 10px;
+	padding: 4px;
+	color: #0f5d84;
+	font-size: inherit;
+	background: #F5F5F5;
+	border-color: #F5F5F5;
+	h4{
+		margin: 6px;
+	}
+}
+
+.tag-jurnal-info2 {
+	color: #606266; width: 100%;
+	position: relative;
+	// margin-left: 20px;
+	// padding-left: 35px;
+	border-radius: 2px;
+	padding: 4px;
+	color: #0f5d84;
+	font-size: inherit;
+	background: #F5F5F5;
+	border-color: #F5F5F5;
+  i{
+    font-size: x-large;
+    color: #6a6c6d;
+    vertical-align: sub;
+  }
+  p{
+    margin: 0;
+  }
+}
+
+.info-blue {
+	margin-top: -1px;
+	background-color: #9ACCED;
+	border-color: #504f63;
+	position: absolute;
+	left: -15px;
+	width: 32px;
+	height: 32px;
+	font-size: inherit;
+	border-radius: 16px;
+	border: 1px solid;
+	font-size: 32px;
+	text-align: center;
+	line-height: 20px;
+}
+
+
+.jurnalExportHeader{
+	background-color: #059EDF;
+	border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+	img{
+    max-width: 32px;
+  }
+  .jurnal{
+    font-weight: bolder;
+    color: #E4F8FF;
+  }
+  .el-button{
+    color: #0085CD;
+    &:hover{
+      background-color: #F5F5F5;
+    }
+  }
+}
+
+.menuJurnal{
+  .el-divider--horizontal{
+    margin: 5px 0;
+  }
+}
+
+.exportSelected{
+  background: $colorPrimarySoft;
+}
+
+.dialog-copy-from-other-store{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  overflow: auto;
+  width: 320px;
+  background: #fff;
+  z-index: 888;
+  padding: 20px;
+  // box-shadow: 0px 0px 20px rgba(#000, 0.16);
+  padding-bottom: 80px;
+  padding-top: 60px;
+  border-left: 1px solid #e0e0e0;
+
+  .header-dialog {
+    border-left: 1px solid #e0e0e0;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 12px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 320px;
+    background: #fff;
+    padding: 12px 20px;
+    z-index: 889;
+    line-height: 1;
+    
+    span{
+      font-size: 15px;
+    }
+
+    .button-close-dialog {
+      position: absolute;
+      top: -1px;
+      right: 20px;
+      z-index: 900;
+      color: rgba(0,0,0,0.6);
+      font-size: 15px;
+      margin: 9px 0px;
+      padding: 5px 5px;
+    }
+  }
+
+  .footer-dialog {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    z-index: 889;
+    padding: 12px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+    .el-button{ 
+      width: 100%;
+    }
+  }
+}
+
+.dialog-setting-jurnal{
+  position: fixed;
+  right: 0;
+  top: 110px;
+  height: 100%;
+  overflow: auto;
+  width: 360px;
+  background: #fff;
+  z-index: 888;
+  padding: 20px;
+  // box-shadow: 0px 0px 20px rgba(#000, 0.16);
+  padding-bottom: 80px;
+  padding-top: 60px;
+  border-left: 1px solid #e0e0e0;
+
+  .header-dialog {
+    border-left: 1px solid #e0e0e0;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 12px;
+    position: fixed;
+    right: 0;
+    top: 108px;
+    width: 360px;
+    background: #fff;
+    padding: 12px 20px;
+    z-index: 889;
+    line-height: 1;
+    
+    span{
+      font-size: 15px;
+    }
+
+    .button-close-dialog {
+      position: absolute;
+      top: -1px;
+      right: 20px;
+      z-index: 900;
+      color: rgba(0,0,0,0.6);
+      font-size: 15px;
+      margin: 9px 0px;
+      padding: 5px 5px;
+    }
+  }
+
+  .footer-dialog {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 360px;
+    z-index: 889;
+    padding: 12px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+    .el-button{ 
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.upgrade-banner {
+  position: sticky;
+  bottom: 42px;
+  padding-left: calc(250px + 16px);
+  padding-right: 16px;
+  z-index: 20;
+  &__main {
+    max-width: 1056px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 48px;
+    background-image: url('/static/img/store-types/bg-upgrade-banner.png');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F8FDFF;
+    box-shadow: inset 0px 0px 16px #6FCFEE3D, 0px 3px 6px #0000001F;
+    border-radius: 10px;
+    position: relative;
+  }
+  &__accounting {
+    .upgrade-banner__main {
+      background-image: url('/static/img/banner-pro-akuntansi/bg.png') !important;
+      color: #fff;
+      .color-blue-dark {
+        color: #fff !important;
+      }
+    }
+    .upgrade-banner__actions {
+      background-color: var(--color-accounting);
+    }
+  }
+  &__tokopedia {
+    .upgrade-banner__main {
+      background-image: url('/static/img/banner-pro-tokopedia/bg.png') !important;
+      color: #fff;
+      .color-blue-dark {
+        color: #fff !important;
+      }
+    }
+    .upgrade-banner__actions {
+      background-color: var(--color-tokopedia);
+    }
+  }
+  &__actions {
+    max-width: 1056px;
+    width: 100%;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-blue-dark);
+    color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  &__close {
+    text-align: right;
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    top: -30px;
+    right: 20px;
+    color: #000;
+  }
+  &__promo_tag {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #EE4E2E;
+    color: #fff;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 10px;
+  }
+}
+
+.sidebar-collapse {
+  .upgrade-banner {
+    padding-left: 16px;
+  }
+}
+
+.el-dialog {
+  .upgrade-banner {
+    position: unset;
+    padding-left: 0;
+    padding-right: 0;
+    &__main {
+      padding: 32px 24px;
+      box-shadow: none;
+    }
+  }
+}

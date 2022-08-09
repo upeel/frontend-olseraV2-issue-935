@@ -1,0 +1,48 @@
+<svg id="ol_-_subscription_2" data-name="ol - subscription 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="71.999" viewBox="0 0 72 71.999">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.534" y1="-0.8" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6fcfee"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.552" y1="-0.672" x2="0.468" y2="0.559" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path">
+      <ellipse id="Ellipse_693" data-name="Ellipse 693" cx="36" cy="36" rx="36" ry="36" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6fcfee"/>
+      <stop offset="1" stop-color="#1685c7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ddf2fa"/>
+      <stop offset="1" stop-color="#6fcfee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0" y1="0.5" y2="0.5" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-6" x1="0.524" y1="0.184" x2="0.752" y2="0.753" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#94e4fe"/>
+      <stop offset="1" stop-color="#2bc5f4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.398" y1="0.236" x2="0.738" y2="0.724" xlink:href="#linear-gradient-6"/>
+    <filter id="Intersection_15" x="-35.803" y="-20.333" width="90.267" height="88.544" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feFlood flood-color="#6fcfee" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <ellipse id="Ellipse_665" data-name="Ellipse 665" cx="36" cy="36" rx="36" ry="36" fill="url(#linear-gradient-2)"/>
+  <g id="Mask_Group_6" data-name="Mask Group 6" clip-path="url(#clip-path)">
+    <g id="Group_25052" data-name="Group 25052" transform="translate(21.375 14.625)">
+      <path id="Path_40314" data-name="Path 40314" d="M106.208,3.79c-15.561,0-14.95,15.219-14.95,15.219,0,7.609,5.581,12.236,8.356,15.221,1.31,1.393,4.876,6.618,6.594,6.618s5.3-5.225,6.594-6.618c2.777-2.985,8.358-7.612,8.358-15.221C121.16,19.009,121.767,3.79,106.208,3.79Z" transform="translate(-91.255 -3.111)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_40315" data-name="Path 40315" d="M133.6,13.357c0,7.144-5.108,14.4-7.016,17.391s-2.205,5.758-3.8,6.807a1.285,1.285,0,0,1-1.314,0c-1.6-1.049-1.9-3.813-3.8-6.807S110.65,20.49,110.65,13.357C110.669,5.054,116.111,0,122.13,0S133.594,5.054,133.6,13.357Z" transform="translate(-107.176 0)" fill="#6fcfee"/>
+      <path id="Path_40316" data-name="Path 40316" d="M141.3,13.357c0,7.144-2.293,14.4-3.149,17.391s-.9,5.758-1.612,6.807a.518.518,0,0,1-.786,0c-.716-1.049-.756-3.813-1.612-6.807S131,20.49,131,13.357C131,5.054,133.443,0,136.148,0S141.293,5.054,141.3,13.357Z" transform="translate(-121.234 0)" fill="url(#linear-gradient-4)"/>
+      <path id="Path_40317" data-name="Path 40317" d="M147.989,179.487c-3,0-2.538-3.057-2.538-3.057h5.078S150.993,179.487,147.989,179.487Z" transform="translate(-133.08 -137.368)" fill="url(#linear-gradient-5)"/>
+      <ellipse id="Ellipse_691" data-name="Ellipse 691" cx="2.54" cy="0.539" rx="2.54" ry="0.539" transform="translate(12.37 38.522)" fill="#1685c7"/>
+    </g>
+    <path id="Path_40340" data-name="Path 40340" d="M43.976,5.273a8,8,0,0,1,11.048,0l29.533,28.19A8,8,0,0,1,79.033,47.25H19.967a8,8,0,0,1-5.524-13.787Z" transform="translate(-37.125 38.25)" fill="url(#linear-gradient-6)"/>
+    <path id="Path_40341" data-name="Path 40341" d="M43.976,5.273a8,8,0,0,1,11.048,0l29.533,28.19A8,8,0,0,1,79.033,47.25H19.967a8,8,0,0,1-5.524-13.787Z" transform="translate(2.773 48.375)" fill="url(#linear-gradient-7)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Intersection_15)">
+      <path id="Intersection_15-2" data-name="Intersection 15" d="M0,16.544A35.8,35.8,0,0,1,6.091,0,7.653,7.653,0,0,1,8.357,4.429,3.837,3.837,0,0,1,14.57,7.439V8.877a3.836,3.836,0,0,1,0,7.667Z" transform="translate(0.2 15.67)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

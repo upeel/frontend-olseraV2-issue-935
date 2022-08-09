@@ -1,0 +1,183 @@
+$devin-sidebar-width: 260px;
+$devin-header-height: 60px;
+$sidebar-collapse-width: 60px;
+/*
+ * Component: Sales Module
+ * ------------------------
+ */
+
+// Start - Open Order List
+.sidebar-mini {
+  .content.sales-list>.tab-content .box>.box-header {
+    .col-md-1 {
+      display: inline;
+    }
+    .col-md-6 {
+      h4 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 16px;
+        color: #A9A9A9;
+      }
+    }
+    .col-md-4 {
+      float: right;
+      text-align: right;
+      margin-top: 10px;
+    }
+    .col-md-11 {
+      width: 91.66666667%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .col-md-2 {
+      float: right;
+    }
+  }
+}
+.sidebar-mini .el-dialog__wrapper .row>.col-md-3 {
+  .el-button--default {
+    font-size: 16px;
+    font-weight: bold;
+    width: 300px;
+  }
+  .desc {
+    line-height: 0.5;
+    color: #777777;
+    h5{
+      font-weight: bold;
+    }
+  }
+}
+.sidebar-mini .el-dialog__wrapper .row>.col-md-9 {
+  .el-upload .el-upload-dragger{
+    width: 950px;
+    background-color: #F5F5F5;
+    height: 350px;
+    padding-top: 10%;
+  }
+}
+
+// Start - Open Order Create
+.sidebar-mini .content .open-create-body .row>.el-col-11 {
+  .el-form-item {
+    // float: right;
+    .el-form-item__label {
+      // float: right;
+      // margin-left: 510px;
+      &:before {
+        margin-right: 0;
+        margin-left: 4px;
+        float: right;
+      }
+    }
+    .el-form-item__content {
+      text-align: right;
+      // float: right;
+      margin-right: 10px;
+      span {
+        // margin-right: -598px;
+        color: #FF5A5A;
+      }
+      p>span {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.sidebar-mini .content .open-create-body .row>.el-col-13 {
+  .el-select {
+    width: 100% !important;
+  }
+  .el-autocomplete {
+    width: 100% !important;
+  }
+}
+
+// .sidebar-mini .el-select-dropdown.el-popper {
+//   min-width: 23% !important;
+// }
+// End - Open Order Create
+
+// Start - Open Order Detail
+.sidebar-mini .content.open-order-detail .row>.col-md-3,
+.sidebar-mini .content.open-order-detail .row>.col-md-6 {
+  .box>.box-header {
+    margin: 0;
+  }
+}
+.sidebar-mini .content.open-order-detail .row>.col-md-3,
+.sidebar-mini .content.open-order-detail .row>.col-md-6 {
+  .box>.panel-body {
+    margin: 0;
+    padding: 0;
+    .cart-items {
+      float: none;
+      padding: 0;
+      li {
+        padding: 15px 15px 15px 15px;
+        h5 {
+          font-weight: bold
+        }
+      }
+    }
+  }
+}
+.sidebar-mini .content.open-order-detail .panel-table .panel-body {
+  .footer-summary {
+    svg {
+      stroke: #73B8FF;
+    }
+  }
+}
+.sidebar-mini .content-wrapper .el-dialog__wrapper .el-dialog .el-dialog__body {
+  .cart-items>li {
+    label {
+      display: flex;
+    }
+  }
+}
+
+.sidebar-mini {
+  .content.sales-list {
+    .tab-list {
+      position: fixed;
+      width: 100%;
+      padding-left: $devin-sidebar-width;
+      left: 0;
+      top: 60px;
+      z-index: 1020;
+    }
+  }
+
+  .content-accounting {
+    .tab-list {
+      position: fixed;
+      width: 100%;
+      padding-left: $devin-sidebar-width;
+      left: 0;
+      top: 60px;
+      z-index: 1020;
+    }
+  }
+
+  &.sidebar-collapse {
+    .content.sales-list {
+      .tab-list {
+        padding-left: $sidebar-collapse-width;
+      }
+    }
+
+    .content-accounting {
+      .tab-list {
+        padding-left: $sidebar-collapse-width;
+      }
+    }
+  }
+
+}

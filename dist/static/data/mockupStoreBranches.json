@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Cabang 1",
+    "url_id": "cabang1"
+  },
+  {
+    "id": 2,
+    "name": "Cabang 2",
+    "url_id": "cabang2"
+  },
+  {
+    "id": 3,
+    "name": "Cabang 3",
+    "url_id": "cabang3"
+  },
+  {
+    "id": 4,
+    "name": "Cabang 4",
+    "url_id": "cabang4"
+  },
+  {
+    "id": 5,
+    "name": "Cabang 5",
+    "url_id": "cabang5"
+  },
+  {
+    "id": 6,
+    "name": "Cabang 6",
+    "url_id": "cabang6"
+  },
+  {
+    "id": 7,
+    "name": "Cabang 7",
+    "url_id": "cabang7"
+  },
+  {
+    "id": 8,
+    "name": "Cabang 8",
+    "url_id": "cabang8"
+  },
+  {
+    "id": 9,
+    "name": "Cabang 9",
+    "url_id": "cabang9"
+  },
+  {
+    "id": 10,
+    "name": "Cabang 10",
+    "url_id": "cabang10"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "L",
+    "billing_ids": [],
+    "name": "Lite",
+    "price": 0,
+    "price_per_month": 0,
+    "background_color": "#F5F5F5",
+    "color": "#272727",
+    "color_grad": "#FFFFFF",
+    "color_grad_2": "#EEEEEE",
+    "desc": "Untuk usaha rintisan yang dikelola sendiri tanpa staff, dengan laporan penjualan sederhana",
+    "with_trial": 0,
+    "badge": null,
+    "features": [
+      "POS di Android",
+      "App Backoffice",
+      "Fitur Online Delivery",
+      "Fitur Dasar",
+      "Laporan Sederhana"
+    ]
+  },
+  {
+    "id": "B",
+    "billing_ids": [
+      {
+        "id": "XB01",
+        "name": "1 Bulan",
+        "price": 128000
+      },
+      {
+        "id": "XB12",
+        "name": "1 Tahun",
+        "price": 988000
+      }
+    ],
+    "name": "Basic",
+    "price": 988000,
+    "price_per_month": 128000,
+    "background_color": "#EDF7E9",
+    "color": "#6EBE46",
+    "color_grad": "#F2FFEC",
+    "color_grad_2": "#DFFFD2",
+    "desc": "Untuk usaha rintisan dengan fitur standar dan 3 akses perangkat",
+    "with_trial": 14,
+    "features": [
+      "POS di Android & Windows",
+      "App Backoffice",
+      "Fitur Online Delivery",
+      "Fitur Dasar",
+      "Fitur Menengah",
+      "Laporan Professional"
+    ]
+  },
+  {
+    "id": "F",
+    "billing_ids": [
+      {
+        "id": "XP01",
+        "name": "1 Bulan",
+        "price": 218000
+      },
+      {
+        "id": "XP12",
+        "name": "1 Tahun",
+        "price": 1688000
+      }
+    ],
+    "name": "Premium",
+    "price": 1688000,
+    "price_per_month": 218000,
+    "background_color": "#E4F8FF",
+    "color": "#2BC5F4",
+    "color_grad": "#F5FCFF",
+    "color_grad_2": "#DDF2FA",
+    "desc": "Untuk usaha berkembang dengan fitur lengkap, tanpa batasan akses perangkat",
+    "with_trial": 14,
+    "badge": "Best Value",
+    "features": [
+      "POS di Android, IOs & Windows",
+      "App Backoffice",
+      "Fitur Online Delivery & Take Away",
+      "Fitur Online Dine-In & Reservation",
+      "Fitur Lengkap",
+      "Laporan Professional",
+      "Website Bisnis"
+    ]
+  },
+  {
+    "id": "P",
+    "billing_ids": [
+      {
+        "id": "XO01",
+        "name": "1 Bulan",
+        "price": 298000
+      },
+      {
+        "id": "XO12",
+        "name": "1 Tahun",
+        "price": 2388000
+      }
+    ],
+    "name": "Pro",
+    "price": 2388000,
+    "price_per_month": 298000,
+    "background_color": "#E4F8FF",
+    "color": "#0085CD",
+    "color_grad": "#F5FCFF",
+    "color_grad_2": "#DDF2FA",
+    "desc": "Untuk usaha profesional dengan fitur <strong>Extra Lengkap</strong> seperti Akuntansi, Marketplace, dan Face ID.",
+    "with_trial": 14,
+    "badge": "Best Choice",
+    "features": [
+      "Omni Channel",
+      "Internal Accounting",
+      "POS di Android, IOs & Windows",
+      "App Backoffice",
+      "Fitur Online Delivery & Take Away",
+      "Fitur Online Dine-In & Reservation",
+      "Fitur Lengkap",
+      "Laporan Professional",
+      "Website Bisnis"
+    ]
+  }
+]

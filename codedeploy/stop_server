@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# check dulu server mana untuk proses atau untuk queue
+file="/etc/supervisor/conf.d/laravel-worker.conf"
+if [ -e "$file" ]
+then
+	pkill -f supervisord
+else
+	service nginx stop
+	service php-fpm stop
+fi

@@ -1,0 +1,16 @@
+#!/bin/bash
+cp -f /var/www/html/dashboard.olsera.co.id/codedeploy/sysconfig/clock /etc/sysconfig/clock
+ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+cp -f /var/www/html/dashboard.olsera.co.id/codedeploy/php.ini /etc/php.ini
+
+cp -f /var/www/html/dashboard.olsera.co.id/codedeploy/php-fpm/www.conf /etc/php-fpm-7.3.d/www.conf
+
+chown -R nginx:nginx /var/www/html
+#chmod -R 755 /var/www/html
+chmod -R 777 /var/www/html
+
+cp -f /var/www/html/dashboard.olsera.co.id/codedeploy/nginx/default.conf /etc/nginx/conf.d/default.conf
+cp -f /var/www/html/dashboard.olsera.co.id/codedeploy/nginx/nginx.conf /etc/nginx/nginx.conf
+
+service nginx restart
+service php-fpm restart

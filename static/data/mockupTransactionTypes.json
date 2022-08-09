@@ -1,0 +1,44 @@
+[
+  {
+    "id": 3624970,
+    "name": "Setoran bank",
+    "type": "E",
+    "type_name": "Expense"
+  },
+  {
+    "id": 3532728,
+    "name": "Penggajian karyawan",
+    "type": "E",
+    "type_name": "Expense"
+  },
+  {
+    "id": 3501824,
+    "name": "Elpiji",
+    "type": "E",
+    "type_name": "Expense"
+  },
+  {
+    "id": 3430942,
+    "name": "Senar gitar",
+    "type": "I",
+    "type_name": "Income"
+  },
+  {
+    "id": 3365529,
+    "name": "Stik PS kantor",
+    "type": "E",
+    "type_name": "Expense"
+  },
+  {
+    "id": 3347062,
+    "name": "Tagihan Listrik Mei 2020",
+    "type": "E",
+    "type_name": "Expense"
+  },
+  {
+    "id": 3312126,
+    "name": "kas kecil neh",
+    "type": "I",
+    "type_name": "Income"
+  }
+]

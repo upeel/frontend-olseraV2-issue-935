@@ -1,0 +1,422 @@
+[
+  {
+    "type": "parent",
+    "name": "Go Online",
+    "colspan": true
+  },
+  {
+    "name": "Online Delivery Order",
+    "exclude_types": []
+  },
+  {
+    "name": "Online Take Away Order",
+    "exclude_types": [
+      "L",
+      "B"
+    ]
+  },
+  {
+    "name": "Online Dine-in Order",
+    "exclude_types": [
+      "L",
+      "B"
+    ]
+  },
+  {
+    "name": "Online Reservation Order",
+    "exclude_types": [
+      "L",
+      "B"
+    ]
+  },
+  {
+    "name": "Website",
+    "exclude_types": [
+      "L",
+      "B"
+    ]
+  },
+  {
+    "name": "Online Retail",
+    "fields": [
+      false,
+      false,
+      false,
+      "Coming Soon"
+    ]
+  },
+
+  {
+    "type": "parent",
+    "name": "Aplikasi",
+    "colspan": true
+  },
+  {
+    "name": "Platform POS",
+    "fields": [
+      "Android",
+      "Android, Windows PC",
+      "Android, iOS, Windows PC",
+      "Android, iOS, Windows PC"
+    ]
+  },
+  {
+    "name": "App untuk Pemilik",
+    "exclude_types": []
+  },
+  {
+    "name": "Aplikasi Waiter",
+    "exclude_types": ["L", "B"]
+  },
+  {
+    "name": "Jumlah Perangkat",
+    "fields": [
+      "1",
+      "3",
+      "Tidak Terbatas",
+      "Tidak Terbatas"
+    ]
+  },
+
+
+  {
+    "type": "parent",
+    "name": "Fitur",
+    "colspan": true
+  },
+  {
+    "name": "Manajemen Produk",
+    "exclude_types": []
+  },
+  {
+    "name": "Jumlah Produk",
+    "fields": [
+      "Maksimal 50",
+      "Tidak Terbatas",
+      "Tidak Terbatas",
+      "Tidak Terbatas"
+    ]
+  },
+  {
+    "name": "Manajemen Harga Modal dan Jual",
+    "exclude_types": []
+  },
+  {
+    "name": "Manajemen ojek online (Atur harga berbeda dikasir)",
+    "exclude_types": [
+      "L"
+    ]
+  },
+  {
+    "name": "Manajemen Stok Produk",
+    "exclude_types": []
+  },
+  {
+    "name": "Peringatan Sisa Stok",
+    "exclude_types": []
+  },
+  {
+    "name": "Transfer Stok antar toko",
+    "exclude_types": [
+      "L",
+      "B"
+    ]
+  },
+  {
+    "name": "Pencatatan Stok Terbuang",
+    "exclude_types": []
+  },
+  {
+    "name": "Produk dengan Varian (Multy Qty)",
+    "exclude_types": []
+  },
+  {
+    "name": "Jumlah Transaksi",
+    "fields": [
+      "Tidak Terbatas",
+      "Tidak Terbatas",
+      "Tidak Terbatas",
+      "Tidak Terbatas"
+    ]
+  },
+  {
+    "name": "Catat Transaksi Tunai dan Non Tunai",
+    "exclude_types": []
+  },
+  {
+    "name": "Jumlah Staff",
+    "fields": [
+      "Hanya Pemilik",
+      "Pemilik + 2 Staf",
+      "Tidak Terbatas",
+      "Tidak Terbatas"
+    ]
+  },
+  {
+    "name": "Komisi Staff",
+    "exclude_types": [
+      "L"
+    ]
+  },
+  {
+    "name": "Otorisasi Staff",
+    "fields": [
+      "Hanya Pemilik",
+      "POS Staff & POS Staff Senior",
+      "Tidak Terbatas",
+      "Tidak Terbatas"
+    ]
+  },
+  {
+    "name": "Manajemen Staff & Shift",
+    "exclude_types": [
+      "L"
+    ]
+  },
+  {
+    "name": "Absensi",
+    "fields": [
+      false,
+      true,
+      true,
+      "Absensi PIN, Face ID"
+    ]
+  },
+  {
+    "name": "Pembelian dan Supplier",
+    "exclude_types": [
+      "L",
+      "B"
+    ]
+  },
+  {
+    "name": "Catat Pendapatan dan Pengeluaran",
+    "exclude_types": [
+      "L"
+    ]
+  },
+
+
+
+  {
+    "type": "parent",
+    "name": "Struk",
+    "colspan": true
+  },
+  {
+    "name": "Struk Digital",
+    "fields": ["EMAIL, Whatsapp", "EMAIL, Whatsapp", "EMAIL, Whatsapp, Whatsapp BUSINESS", "EMAIL, Whatsapp, Whatsapp BUSINESS"]
+  },
+  {
+    "name": "Cetak Struk",
+    "fields": ["Pembayaran", "Pembayaran", "Pembayaran, Check, Waiter, Dapur", "Pembayaran, Check, Waiter, Dapur"]
+  },
+  {
+    "name": "Cetak Struk Label (Sticker)",
+    "exclude_types": ["L", "B"]
+  },
+
+
+  {
+    "type": "parent",
+    "name": "Fitur Resto",
+    "colspan": true
+  },
+  {
+    "name": "Split Bill",
+    "exclude_types": ["L"]
+  },
+  {
+    "name": "Join Bill",
+    "exclude_types": ["L", "B"]
+  },
+  {
+    "name": "Pencatatan Jenis Order (Dine in, take away, Custom Note)",
+    "fields": [
+      "Remark",
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "name": "Manajemen Resep",
+    "exclude_types": ["L"]
+  },
+  {
+    "name": "Manajemen Meja",
+    "exclude_types": ["L", "B"]
+  },
+  {
+    "name": "Buku Menu Digital",
+    "fields": [
+      false,
+      "QR Code",
+      "QR Code + Web Link",
+      "QR Code + Web Link"
+    ]
+  },
+
+
+
+  {
+    "type": "parent",
+    "name": "CRM",
+    "colspan": true
+  },
+  {
+    "name": "CRM Terpusat",
+    "exclude_types": ["L", "B"]
+  },
+  {
+    "name": "Penyimpanan Data dan Aktivitas Pelanggan",
+    "exclude_types": ["L"]
+  },
+  {
+    "name": "Pengaturan Promosi (Produk, Pelanggan, Kupon Diskon)",
+    "exclude_types": ["L"]
+  },
+  {
+    "name": "Program Loyalti atau Reward",
+    "exclude_types": ["L", "B"]
+  },
+
+
+  {
+    "type": "parent",
+    "name": "Laporan",
+    "colspan": true
+  },
+  {
+    "name": "Jenis Laporan",
+    "fields": ["Sederhana", "Profesional", "Profesional", "Profesional"]
+  },
+  {
+    "name": "Report Penjualan Ojek Online",
+    "exclude_types": ["L"]
+  },
+  {
+    "name": "Email Laporan",
+    "exclude_types": ["L", "B"]
+  },
+  {
+    "name": "Export Laporan Ke Excel",
+    "exclude_types": []
+  },
+  {
+    "name": "Laporan Analisa Bisnis",
+    "exclude_types": ["L"]
+  },
+
+
+
+  {
+    "type": "parent",
+    "name": "Integrasi",
+    "colspan": true
+  },
+  {
+    "name": "Metode Pembayaran",
+    "fields": [
+      "Tunai, OVO, Dana, GoPay, LinkAja, ShopeePay, pembayaran QRIS lainnya"
+    ],
+    "field_colspan": 4
+  },
+  {
+    "name": "QRIS/ e-wallet",
+    "exclude_types": []
+  },
+  {
+    "name": "Akses Permodalan",
+    "exclude_types": []
+  },
+  {
+    "name": "Olsera Akunting",
+    "exclude_types": ["L", "B", "F"]
+  },
+  {
+    "name": "Kurir Pengiriman",
+    "fields": [false, false, "JNE, TIKI, JNT, Wahana", "JNE, TIKI, JNT, Wahana"]
+  },
+  {
+    "name": "Pemesanan Makanan",
+    "fields": [
+      "Online Order",
+      "Online Order, GrabFood",
+      "Online Order, GrabFood",
+      "Online Order, GrabFood"
+    ]
+  },
+
+  {
+    "type": "parent",
+    "name": "Marketplace",
+    "colspan": true
+  },
+
+  {
+    "name": "Tokopedia",
+    "fields": [
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "name": "Shopee",
+    "fields": [
+      false,
+      false,
+      false,
+      "Coming Soon"
+    ]
+  },
+  {
+    "name": "Lazada",
+    "fields": [
+      false,
+      false,
+      false,
+      "Coming Soon"
+    ]
+  },
+  {
+    "name": "Bukalapak",
+    "fields": [
+      false,
+      false,
+      false,
+      "Coming Soon"
+    ]
+  },
+  {
+    "name": "BliBli",
+    "fields": [
+      false,
+      false,
+      false,
+      "Coming Soon"
+    ]
+  },
+  {
+    "name": "JD.Id",
+    "fields": [
+      false,
+      false,
+      false,
+      "Coming Soon"
+    ]
+  },
+
+  {
+    "type": "parent",
+    "name": "Dukungan Purna Jual",
+    "fields": [
+      "Online CS 24/7",
+      "Online CS 24/7",
+      "Online CS 24/7, Dedicated Support Team, On Site Visit",
+      "Online CS 24/7, Dedicated Support Team, On Site Visit"
+    ]
+  }
+]

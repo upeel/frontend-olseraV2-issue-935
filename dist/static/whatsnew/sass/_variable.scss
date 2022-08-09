@@ -1,0 +1,580 @@
+$colorPrimary: #0085CD;
+$colorPrimaryStrong: #40C4FF;
+$colorPrimarySoft: #E4F8FF;
+$colorInfo: #E1E2E1;
+$colorDanger: #F44336;
+$colorGrey: #EEEEEE;
+$colorGreySoft: #FAFAFA;
+$colorWarning: #FF931E;
+$colorWarningSoft: #FFF2E3;
+$grey: rgba(#ddd, 1);
+$oldGrey: #666;
+$colorBody: #272727;
+$black: #000000;
+$blackBody: #333;
+$colorSuccess: #67C23A;
+$greenDark: #6EBE46;
+$greenAndroid: #3DDB85;
+$colorGreen: #6EBE46;
+$colorGreenSoft: #F2FFEC;
+$colorBlueActive: #2BC5F4;
+$boxShadow1: 0px 2px 2px rgba(#000, 0.16);
+$boxShadow2: 0px 2px 2px rgba(#000, 0.16);
+
+.bg-f5 {
+  background: #F5F5F5 !important;
+  .el-input__inner {
+    background: #F5F5F5 !important;
+  }
+}
+
+.font-12 {
+  font-size: 12px !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+.font-20 {
+  font-size: 20px !important;
+}
+
+.font-24 {
+  font-size: 24px !important;
+}
+
+.font-32 {
+  font-size: 32px !important;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semi-bold {
+  font-weight: 600;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+
+.p-null {
+  padding: 0 0 0 0 !important;
+}
+
+.p-8 {
+  padding: 8px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.p-24 {
+  padding: 24px;
+}
+
+.p-48 {
+  padding: 48px;
+}
+
+.px-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.px-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+  &--p {
+    p {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+  &--list {
+    li {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+  &--list {
+    li {
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.my-4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.semi-bold {
+	font-weight: 600;
+}
+
+.color-body {
+	color: $colorBody;
+}
+
+.color-info {
+  color: $oldGrey;
+}
+
+.color-old-grey {
+  color: $oldGrey;
+}
+
+.box-shadow {
+  box-shadow: $boxShadow1;
+}
+
+.box-shadow-2 {
+  box-shadow: $boxShadow2;
+}
+
+.overflow-ellipsis {
+  white-space: nowrap;
+  // width: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  // border: 1px solid #000000;
+  // display: inline-block;
+  // width: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.flex-container {
+  &--wrap {
+    flex-wrap: wrap;
+  }
+  &--desktop {
+    display: flex;
+  }
+  &--center {
+    align-items: center;
+  }
+}
+
+.flex-grid-2 {
+  flex-basis: 50%;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  max-width: 50%;
+}
+
+.unset-height {
+  height: auto !important;
+}
+
+.unset-border-radius {
+  border-radius: 0 !important;
+}
+
+.border {
+  border: 1px solid;
+  &--info {
+    border-color: $colorInfo;
+  }
+  &--grey {
+    border-color: $colorGrey;
+  }
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.block {
+  display: block !important;
+}
+
+.m-null {
+  margin: 0 0 0 0 !important;
+}
+
+.mw-348 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 348px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mw-460 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 460px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mw-420 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 420px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mw-680 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 680px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mw-760 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 760px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mw-980 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 980px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mw-1020 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 1020px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mw-1056 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 1056px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-handler-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-align-items {
+  align-items: center;
+}
+
+.color-white {
+  color: #fff !important;
+  &--bg {
+    background-color: #fff !important;
+  }
+}
+
+.color-warning {
+  color: $colorWarning !important;
+  &--bg {
+    background-color: $colorWarning !important;
+  }
+  &--soft {
+    color: $colorWarningSoft !important;
+    &--bg {
+      background: $colorWarningSoft !important;
+    }
+  }
+}
+
+.color-primary {
+  color: $colorPrimary !important;
+  &--strong {
+    color: $colorPrimaryStrong;
+  }
+  &--bg {
+    background-color: $colorPrimary !important;
+  }
+  &--soft {
+    color: $colorPrimarySoft !important;
+    &--bg {
+      background: $colorPrimarySoft !important;
+    }
+  }
+}
+
+.color-green {
+  color: $colorGreen !important;
+  &--bg {
+    background-color: $colorGreen !important;
+  }
+  &--dark {
+    color: $colorGreen;
+  }
+  &--soft {
+    color: $colorGreenSoft !important;
+    &--bg {
+      background: $colorGreenSoft !important;
+    }
+  }
+}
+
+.color-blue-active {
+  color: $colorBlueActive;
+  &--bg {
+    background-color: $colorBlueActive !important;
+  }
+}
+
+.color-grey {
+  color: $colorGrey !important;
+  &--soft {
+    color: $colorGreySoft !important;
+    &--bg {
+      background-color: $colorGreySoft !important;
+    }
+  }
+}
+
+.color-success {
+  color: $colorSuccess !important;
+}
+
+.color-black {
+  color: $black;
+}
+
+.color-whatsapp {
+  color: var(--whatsapp);
+}
+
+.radius-null {
+  border-radius: 0 !important;
+}
+
+.el-table .warning-row {
+  background: oldlace;
+}
+
+.chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 100px;
+  border: 1px solid;
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+  &--primary,
+  &--pos {
+    border-color: $colorPrimaryStrong;
+    color: $colorPrimaryStrong;
+  }
+  &--ol {
+    border-color: $greenDark;
+    color: $greenDark;
+  }
+  &--android {
+    border-color: $greenAndroid;
+    color: $greenAndroid;
+  }
+  &--default {
+    border-color: $colorBody;
+    color: $colorBody;
+  }
+}
+
+.radius-10 {
+  border-radius: 10px;
+}
+
+.radius-16 {
+  border-radius: 16px;
+}
+
+.bg-primary {
+  background-color: $colorPrimary !important;
+  &--dialog {
+    background-color: $colorPrimary !important;
+    color: #fff;
+  }
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.d-block {
+  display: block;
+}
+
+.w-fit {
+  width: 100%;
+}
+
+.absolute-top-right {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  &--wrap {
+    flex-wrap: wrap !important;
+  }
+  &--top {
+    align-items: flex-start;
+  }
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.white {
+  color: var(--white);
+}
+
+.blue-active {
+  color: var(--blue-active);
+  &--bg {
+    background-color: var(--blue-active)
+  }
+}
+
+.btn {
+  padding: 9px;
+  background-color: var(--blue-active);
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  &--block {
+    width: 100%;
+    display: block;
+  }
+  &--flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .text-right-desktop {
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .flex-container--desktop {
+    display: block;
+  }
+}

@@ -1,0 +1,262 @@
+.el-button {
+  box-shadow: 0px 2px 2px #0000001F;
+  color: $colorBody;
+  font-weight: bold;
+
+  &.is-disabled {
+    background-color: #EEEEEE !important;
+    color:#a8a8a8 !important;
+    border-color: #eee !important;
+  }
+  &:active,
+  &--text {
+    box-shadow: none;
+  }
+
+  &--text {
+    color: $colorPrimary;
+    &.is-disabled {
+      background-color: transparent !important;
+      border-color: transparent !important;
+    }
+  }
+
+  &--default {
+    border-color: transparent;
+  }
+
+  &--success {
+    color: #fff;
+  }
+
+  &--danger {
+    color: #fff;
+  }
+
+  &--primary {
+    background: $colorPrimary;
+    color: #fff;
+    border-color: $colorPrimary;
+  }
+
+	&--info {
+		background: $colorInfo;
+    color: $colorBody;
+    border-color: $colorInfo;
+    &.active {
+      background: #82848a;
+      border-color: #82848a;
+      color: #fff; 
+    }
+  }
+
+  &--info-addon {
+		background: $colorInfo;
+    color: $colorBody;
+    border-color: $colorInfo;
+    &.active {
+      background: #CECECE;
+      border-color: #CECECE;
+      color: #000000;
+    }
+  }
+
+  &--pair-tokopedia {
+		background: #FFFFFF;
+    color: $colorTokopedia;
+    border-color: $colorTokopedia;
+    .el-button:focus {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+    &.active {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+    &.focus {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+  }
+
+  &--tokopedia {
+    background-color: $colorTokopedia;
+    color: #FFFFFF;
+    &--warning {
+      background-color: $colorWarning;
+      color: #FFFFFF;
+    }
+  }
+
+  &--pair-lazada {
+		background: #FFFFFF;
+    color: $colorLazadaBlue;
+    border-color: $colorLazadaBlue;
+    .el-button:focus {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+    &.active {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+    &.focus {
+      background-color: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+  }
+
+  &--lazada {
+    background-color: $colorLazadaBlue;
+    color: #FFFFFF;
+    &--warning {
+      background-color: $colorWarning;
+      color: #FFFFFF;
+    }
+    &.hover {
+      color: #409EFF;
+      border-color: #c6e2ff;
+      background-color: #ecf5ff;
+    }
+  }
+
+  &--pair-shopee {
+		background: #FFFFFF;
+    color: $colorShopee;
+    border-color: $colorShopee;
+    .el-button:focus {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+    &.active {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+    &.focus {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+  }
+
+  &--shopee {
+    background-color: $colorShopee;
+    color: #FFFFFF;
+    transition: .2s ease-in-out;
+    
+    &--warning {
+      background-color: $colorWarning;
+      color: #FFFFFF;
+    }
+    &--plain {
+      background-color: #FFFFFF;
+      color: $colorShopee;
+      border-color: $colorShopee;
+    }
+    &:hover {
+      // $colorShopee: #EE4E2E;
+      background-color: #de664e;
+      color: #FFFFFF;
+    }
+  }
+
+  &--bukalapak {
+    background-color: $colorBukalapak;
+    color: #FFFFFF;
+    &--warning {
+      background-color: $colorWarning;
+      color: #FFFFFF;
+    }
+    &--plain {
+      background-color: #FFFFFF;
+      color: $colorBukalapak;
+      border-color: $colorBukalapak;
+    }
+  }
+
+  &--pair-bukalapak {
+		background: #FFFFFF;
+    color: $colorBukalapak;
+    border-color: $colorBukalapak;
+    .el-button:focus {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+    &.active {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+    &.focus {
+      background: #1C5A1B;
+      border-color: #1C5A1B;
+      color: #FFFFFF;
+    }
+  }
+
+  &--warning {
+    background: $colorWarning;
+    color: #FFFFFF;
+  }
+
+  &.is-loading {
+    span {
+      visibility: hidden;
+    }
+    .el-icon-loading {
+      position: absolute;
+      right: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
+
+  &.absent-active {
+    border: none;
+    background: transparent linear-gradient(180deg, #EEEEEE 0%, #D8D8D8 100%) 0% 0% no-repeat padding-box;
+  }
+
+  &.absent-finished {
+    border: none;
+    color: #fff;
+    background: transparent linear-gradient(180deg, #0085CD 0%, #026DA7 100%) 0% 0% no-repeat padding-box;
+    &:hover {
+      background: transparent linear-gradient(180deg, #0085CD 0%, #026DA7 100%) 0% 0% no-repeat padding-box;
+    }
+  }
+
+  &.absent-success {
+    border: none;
+    color: #fff;
+    background: transparent linear-gradient(180deg, #6EBE46 0%, #4CB219 100%) 0% 0% no-repeat padding-box;
+    &:hover {
+      background: transparent linear-gradient(180deg, #6EBE46 0%, #4CB219 100%) 0% 0% no-repeat padding-box;
+    }
+  }
+}
+
+.btn-zenwel {
+  border-color: $colorZenwel;
+  color: $colorZenwel;
+  &:hover {
+    color: #fff;
+    background-color: $colorZenwel;
+  }
+}
+
+.btn-no-shadow {
+  box-shadow: unset !important;
+}
+
+.el-button + .el-button.btn-block {
+  margin-left: 0;
+}

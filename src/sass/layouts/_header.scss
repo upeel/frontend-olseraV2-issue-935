@@ -1,0 +1,402 @@
+$devin-header-height: 60px;
+$sidebar-collapse-width: 60px;
+$devin-sidebar-width: 260px;
+// $sidebar-devin-text: #000000;
+
+#main-navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    .breadcrumb-wrapper {
+        flex-grow: 1;
+        .breadcrumb {
+            max-width: 500px;
+            .breadcrumb-item {
+                color: #fff;
+                white-space: nowrap;
+                &:last-child {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+}
+
+.navbar-custom-menu .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.trigger-select-outlets {
+	background: $colorPrimarySoft;
+	border-radius: 100px;
+	padding: 6px 8px;
+	color: #575757;
+	font-weight: 500;
+	height: 40px;
+	width: 180px;
+	.color-body {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+}
+
+/*
+ * Component: Main Header
+ * ----------------------
+ */
+
+.el-dropdown-menu {
+    margin: 15px 0;
+    -webkit-box-shadow: 2px 0 20px -4px rgba(0, 0, 0, .2)!important;
+    box-shadow: 2px 0 20px -4px rgba(0, 0, 0, .2)!important;
+}
+
+.main-header {
+    position: fixed;
+    height: $devin-header-height;
+    z-index: 1030;
+    width: 100%;
+    top: 0;
+    .navbar {
+        -webkit-transition: margin-left 0.3s ease-in-out;
+        -o-transition: margin-left 0.3s ease-in-out;
+        transition: margin-left 0.3s ease-in-out;
+        margin-bottom: 0;
+        margin-left: $devin-sidebar-width;
+        border: none;
+        border-radius: 0;
+        .el-badge__content {
+          border: none;
+        }
+
+    }
+}
+
+.main-header {
+    .sidebar-toggle {
+        background-color: transparent;
+        background-image: none;
+        padding: 5px 12px;
+        font-family: 'themify';
+        font-size: 18px;
+        &:hover,
+        &:focus,
+        &:active {
+            background: transparent;
+        }
+        .icon-bar {
+            display: none;
+        }
+    }
+    .navbar .nav>li {
+        svg {
+          width: 24px;
+          height: 24px;
+          margin-right: 0;
+          color: #fff;
+        }
+    }
+}
+
+.sidebar-mini {
+  .el-select-dropdown.el-popper {
+    margin-top: 2px;
+  }
+  .el-select-dropdown .popper__arrow {
+    display: none
+  }
+  ul.el-dropdown-menu.el-popper {
+    margin-top: 10px;
+    margin-left: 18px;
+    padding: 0;
+    .popper__arrow {
+      display: none
+    }
+  }
+}
+
+.navbar-toggle {
+    color: #222;
+    border: 0;
+    margin: 0;
+    padding: 15px 15px;
+}
+
+/*
+ * Component: Dropdown menus
+ * -------------------------
+ */
+/*Dropdowns in general*/
+.dropdown-menu {
+    box-shadow: none;
+    border-color: #eee;
+    > {
+        li>a {
+            color: #777;
+            > {
+                .glyphicon,
+                .fa,
+                .ion {
+                    margin-right: 10px;
+                }
+            }
+            &:hover {
+                background-color: #e1e3e9;
+                color: #333;
+            }
+        }
+        .divider {
+            background-color: #eee;
+        }
+    }
+}
+
+/* Fix dropdown menu in navbars */
+
+.navbar-custom-menu>.navbar-nav>li {
+    position: relative;
+    >.dropdown-menu {
+        position: absolute;
+        right: 0;
+        left: auto;
+    }
+    >.el-select {
+      margin-top: 20px;
+      >.el-input {
+        font-size: 16px;
+        >.el-input__inner {
+          background-color: transparent;
+          border: none;
+          color: #000000;
+          padding: 0;
+        }
+        >.el-input__suffix  {
+          right: -10px;
+          >.el-input__suffix-inner {
+            >i {
+              color: #000000;
+            }
+          }
+        }
+
+      }
+    }
+}
+
+
+/*
+ * Component: Nav
+ * --------------
+ */
+
+.nav>li>a {
+    &:hover,
+    &:active,
+    &:focus {
+        color: #444;
+        background: #f7f7f7;
+    }
+}
+
+.header-dropdown-devin {
+    position: relative;
+    padding: 0 6px 0 0;
+    span {
+      .el-button {
+        background: transparent;
+        width: 45px;
+        height: 45px;
+        border-radius: 70%;
+
+        &:hover,
+        &:focus,
+        &:active {
+          background: #96CEFF;
+          width: 45px;
+          height: 45px;
+          border-radius: 70%;
+        }
+      }
+        i {
+            font-size: 20px;
+            color: #ccc;
+        }
+        .el-badge__content {
+          border: none;
+          right: 20px;
+          &.is-fixed {
+            top: 7px;
+          }
+        }
+
+    }
+}
+
+.dropdown-menu-devin {
+    width: 100%;
+    overflow-x: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -6px;
+    .header {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: 15px;
+        color: #000000;
+        background-color: #E2E2E2;
+        font-size: 16px;
+    }
+    li {
+        list-style: none;
+        margin: 0;
+        padding: 0 0 0 0;
+    }
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    li {
+        padding: 15px;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        svg {
+            display: inline-block;
+            margin: 10px 10px 0 0;
+            width: 24px;
+            height: 24px;
+        }
+        i {
+            height: 40px;
+            width: 30px;
+            display: inline-block;
+            position: relative;
+            left: 0;
+            top: 0;
+            line-height: 30px;
+            text-align: left;
+            margin: 10px 10px 0 0;
+            padding-bottom: 0;
+            padding: 0;
+            font-size: 16px;
+        }
+        a {
+            color: #8c92a3 !important;
+            h3 {
+                font-size: 16px;
+                margin: 0;
+                padding: 15px;
+                font-weight: 500;
+                color: #000000;
+                span {
+                    font-size: 11px;
+                    float: right;
+                    font-weight: 100;
+                    font-style: italic;
+                }
+            }
+            p {
+                margin: 0;
+                padding: 5px 0 15px;
+                color: #8c92a3;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}
+
+.sidebar-mini.sidebar-collapse {
+  .main-header {
+    max-height: 100%;
+    left: $sidebar-collapse-width;
+    z-index: 900;
+    .navbar {
+      margin-left: 0;
+      .navbar-custom-menu {
+        margin-right: 70px;
+      }
+    }
+  }
+}
+
+.dropdown-notification {
+  .header-notif {
+    padding: 15px;
+    font-weight: bold;
+    .el-button {
+      padding: 0 0 0 0;
+    }
+  }
+
+  .el-collapse-item__header {
+    padding: 0 15px;
+  }
+  .el-collapse-item__content {
+    padding: 0 15px 15px 15px;
+  }
+}
+
+.breadcrumb {
+    display: flex;
+    padding: 0 0 0 0;
+    background: transparent;
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: 1;
+    .active {
+        color: #fff;
+    }
+    a {
+        color: #fff;
+        font-weight: bold;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}
+
+.skin-dark .main-header .navbar .nav > li {
+    .goto-onlinestore {
+        color: #fff;
+        padding: 0 0 0 0;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        margin: 0 0 0 6px;
+        text-align: center;
+        &:hover {
+            background: #96CEFF;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar-toggle {
+        flex-grow: 1;
+    }
+    .breadcrumb-wrapper {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .breadcrumb-wrapper,
+    .smart-finder,
+    .goto-onlinestore,
+    .header-dropdown-notification {
+        display: none !important;
+    }
+}

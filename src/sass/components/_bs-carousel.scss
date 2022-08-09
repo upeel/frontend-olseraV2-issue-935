@@ -1,0 +1,25 @@
+.carousel-control {
+  &.right,
+  &.left {
+    background-image: none;
+  }
+
+  span.arrow {
+    position: absolute;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+    font-size: 40px;
+  }
+
+  .prev,
+  .next {
+    margin-left: -20px;
+  }
+}
+
+.carousel-inner {
+  .el-image {
+    width: 100%;
+  }
+}

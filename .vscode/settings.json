@@ -1,0 +1,18 @@
+{
+  "eslint.options": {
+    "configFile": "/Applications/MAMP/htdocs/frontend-olseraV2/.eslintrc.js"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue"
+  ],
+  "eslint.run": "onSave",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "eslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  }
+}

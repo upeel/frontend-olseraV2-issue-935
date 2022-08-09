@@ -1,0 +1,18 @@
+{
+  "3": {
+    "title": "<div class='font-24 font-bold text-center'>AKHIRNYAA!!</div>",
+    "slug": "gopay-20",
+    "description": "HarI Selasa Menangkan gopay 20 sekarang juga",
+    "time": "13:00",
+    "end": "15:05",
+    "message": "<div class='mt-16 text-center word-break'>Pesan menu kini bisa langsung di <span class='font-bold'>gadget pelanggan Anda!</span><div class='mt-16'>*Khusus F&B Baru Rilis</div></div>"
+  },
+  "5": {
+    "title": "<div class='font-24 font-bold text-center'>Bye-bye Buku Menu!</div>",
+    "slug": "gopay-20",
+    "description": "Menangkan gopay 20 sekarang juga",
+    "time": "13:00",
+    "end": "14:05",
+    "message": "<div class='mt-16 text-center word-break'>Rumah makan <span class='font-bold'>Aman dan Nyaman</span> dengan <span class='font-bold'>Menu Digital.</span> <br>Pelanggan bisa order langsung! Baru Rilis.</div>"
+  }
+}

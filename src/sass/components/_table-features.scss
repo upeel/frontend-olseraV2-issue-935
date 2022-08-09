@@ -1,0 +1,55 @@
+.table-features {
+  &.table-bordered {
+    border-color: transparent;
+  }
+  &.table-bordered > tbody > tr {
+    margin-bottom: 4px;
+  }
+  &.table-bordered > tbody > tr > th,
+  &.table-bordered > tbody > tr > td {
+    border: 1px solid #EEEEEE;
+    font-size: 18px;
+  }
+  &.table-bordered > thead > tr > th,
+  &.table-bordered > thead > tr > td {
+    border: 1px solid #FAFAFA;
+    font-size: 20px;
+  }
+  thead > tr > th {
+    background-color: #FAFAFA;
+    position: sticky;
+    top: 0px;
+  }
+  th, td {
+    border-left: none !important;
+    border-right: none !important;
+    border-color: #FAFAFA;
+  }
+  .th {
+    background-color: #FAFAFA;
+    border-top: 4px solid #fff;
+    td {
+      &[colspan="4"] {
+        border-bottom: none !important;
+      }
+      border-color: #CECECE !important;
+      &:first-child {
+        font-weight: bold;
+      }
+    }
+  }
+  .filled {
+    background: #FAFAFA;
+  }
+  .el-icon-check {
+    color: #4CB219;
+  }
+}
+
+.el-dialog.is-fullscreen {
+  .table-features {
+    thead > tr > th {
+      top: 64px;
+    }
+  }
+}

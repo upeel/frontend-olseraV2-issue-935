@@ -1,0 +1,356 @@
+[
+  {
+    "slug": "promo-kemerdekaan-77",
+    "title": "Olsera Beri Promo Kemerdekaan 77ᵗʰ Indonesia",
+    "date": "2022-08-09",
+    "excerpt": "Semarak Dirgahayu Indonesia Ke 77 th , dengan mengusung tema tahun ini “Pulih Lebih Cepat, Bangkit Lebih Kuat” memberikan nuansa yang berbeda untuk menyambut bulan Agustus.",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": true,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/promo-kemerdekaan-77.png",
+    "exclude_trial": false
+  },
+  {
+    "slug": "banner-tripod",
+    "title": "Pakai Online Order Yuk, Olsera Kasi GRATIS Tripod Banner Lho!",
+    "date": "2022-07-25",
+    "excerpt": "Pengen punya Tripod Banner GRATIS untuk café & resto Anda? Sini deh Olsera bantu.",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": true,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/feature-banner-tripod.png",
+    "exclude_trial": false
+  },
+  {
+    "slug": "ganti-banner-toko",
+    "title": "Mau Ganti Banner Toko Lama? Sini Gratis Olsera Bayarin!",
+    "date": "2022-07-11",
+    "excerpt": "Pengen ganti banner toko lama? Tapi bingung cari design yang Keren dan kekinian? Serahin aja ke Olsera.",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": true,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/feature-ganti-banner-toko.png",
+    "exclude_trial": false
+  },
+  {
+    "slug": "upgrade-pro-shopee",
+    "title": "Upgrade Pro Sekarang! Dapatkan 4 Fitur Terbaru!",
+    "date": "2022-07-06",
+    "excerpt": "Untuk anda pemilik usaha yang sudah berlangganan Olsera, saatnya untuk Upgrade Pro sekarang!",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": false,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/upgrade-pro-shopee.jpg",
+    "exclude_trial": false
+  },
+  {
+    "slug": "shopee",
+    "title": "Setelah Tokopedia, Olsera Akhirnya Terintegrasi dengan Shopee!",
+    "date": "2022-07-06",
+    "excerpt": "Dukung UMKM bangkit setelah masa pandemi, Olsera akhirnya terintegrasi dengan Shopee",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": false,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/shopee.jpg",
+    "exclude_trial": false
+  },
+  {
+    "slug": "olsera-bizhare",
+    "title": "Sekarang, Saatnya Wujudkan Imipian Ekspansi Bisnis Anda!",
+    "date": "2022-07-04",
+    "excerpt": "Membawa bisnis tumbuh lebih besar, pasti impian semua pemilik bisnis. Tapi terkadang kurangnya modal menjadi permasalahan yang cukup banyak di alami pemilik bisnis. Karena itu Olsera hadir bersama Bizhare memberikan solusi pendanaan",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": true,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/olsera-bizhare.png",
+    "exclude_trial": false
+  },
+  {
+    "slug": "kebutuhan-toko",
+    "title": "Asik! Lewat Olsera, Sekarang Merchant Bisa Belanja Kebutuhan Toko",
+    "date": "2022-07-04",
+    "excerpt": "Olsera memberikan solusi cermat untuk Anda Merchant Olsera, gak perlu lagi susah keluar untuk belanja kebutuhan toko Anda.",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": false,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/kebutuhan-toko.png",
+    "exclude_trial": false
+  },
+  {
+    "slug": "gabung-member-pengusaha-umkmlab",
+    "title": "Dapatkan Banyak Keuntungan dengan Gabung Member Pengusaha UMKMLab!",
+    "date": "2022-06-25",
+    "excerpt": "Khusus 1000 Merchant Pertama, Daftar member UMKMLab Gratis di bayarin Olsera Lho!",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": false,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/featued-gabung-umkmlab.jpg",
+    "exclude_trial": false
+  },
+  {
+    "slug": "olsera-face-recognition",
+    "title": "Kekinian, Olsera Hadirkan Fitur Absensi Wajah!",
+    "date": "2022-06-07",
+    "excerpt": "Agar bisnis makin kekinian Olsera satu-satunya aplikasi kasir yang hadirkan fitur Absensi Wajah (Face Recognation) untuk karyawan, lebih Pintar, lebih Canggih dan pastinya lebih Aman. ",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": true,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/feature-olsera-face-recognition.jpg",
+    "exclude_trial": false
+  },
+  {
+    "slug": "olsera-x-ralali",
+    "title": "Pengen Berbisnis, Tapi Modal Tipis? Ajukan Modal Kredit Belanja di Ralali Aja!",
+    "date": "2022-06-03",
+    "excerpt": "Buat Anda, yang ingin melakukan tambahan modal usaha, untuk mengembangkan bisnis Anda jadi naik kelas",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": true,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/feature-olsera-x-ralali.jpg",
+    "exclude_trial": false
+  },
+  {
+    "slug": "pengusaha-muda-brilink",
+    "title": "Yuk scale up bisnis Anda, raih hadiah total 450 juta!",
+    "date": "2022-05-24",
+    "excerpt": "Yuk scale up bisnis Anda, raih hadiah total 450 juta! Anda salah satu Pengusaha Muda di bidang F&B, Fashion, ataupun Craft? Tepat sekali! Ini saatnya daftarkan Bisnis Anda dan raih hadiah total 450 juta. Dapatkan juga kesempatan pinjaman bunga 0% dari BRI.",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": true,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/feature-pengusaha-muda-bri-link.jpg",
+    "exclude_trial": false
+  },
+  {
+    "slug": "sabi-competition",
+    "title": "Yuk Ikutan Sabi Competition, dapatkan Rp 15.000.000,-",
+    "date": "2022-04-11",
+    "excerpt": "Dalam rangka memeriahkan Bulan Suci Ramadan, Olsera memanggil seluruh merchant Olsera yang Suka posting foto di Instagram, untuk ikutan event seru “Sabi Competition” Sera Bagi-Bagi Rezeki 🥳 dan dapatkan hadiah total Rp 15.000.000,- untuk 10 orang pemenang.",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": false,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/feature-sabi.jpg",
+    "exclude_trial": false
+  },
+  {
+    "slug": "olsera-x-tokopedia",
+    "title": "Olsera Sudah Terintegrasi dengan Tokopedia",
+    "date": "2022-03-14",
+    "excerpt": "Akhirnya penantian lama, sudah terbayarkan! Kini Olsera sudah terintegrasi dengan salah satu marketplace ternama, yaitu Tokopedia.",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": true,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/feature-olsera-x-tokopedia.png"
+  },
+  {
+    "slug": "olsera-accounting",
+    "title": "Dapatkan Laporan Akuntansi Lengkap, Lewat Fitur Baru \"Akunting Olsera\"",
+    "date": "2022-03-14",
+    "excerpt": "Aplikasi Kasir Olsera tidak hanya Point Of Sale, Jika berlangganan Pro, lewat Backoffice Olsera Merchants sudah bisa menikmati fitur baru \"Akunting Olsera\".",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": true,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/feature-olsera-accounting.png"
+  },
+  {
+    "slug": "olsera-pendanaan",
+    "title": "Ajukan Pendanaan, Sekarang Bisa Lewat Backoffice Olsera!",
+    "date": "2022-01-19",
+    "excerpt": "Sudah siap bawa bisnismu maju ke level selanjutnya? Ayo mulai ajukan pendanaan sekarang lewat Backoffice Olsera!",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": false,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/feature-pendanaan.png"
+  },
+  {
+    "slug": "ojol-new",
+    "title": "Cara Mudah Atur Harga Ojek Online",
+    "date": "2022-01-17",
+    "excerpt": "Sekarang gak perlu bingung lagi kalau transaksi layanan pesan antar tercampur, Fitur Baru Olsera Hadir untuk menjadi solusi. Fitur pengaturan langsung dari sistem POS Olsera untuk menghitung keuntungan berdasarkan ketentuan yang sudah dibuat sebelumnya.",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": false,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/ojol.png"
+  },
+  {
+    "slug": "ewallet-news",
+    "title": "Lewat Backoffice Olsera, Sekali Daftar Bisa Semua Digital Payment!",
+    "date": "2021-12-13",
+    "excerpt": "Saatnya ucapkan selamat tinggal pada cara ribet daftar ke aplikasi pembayaran digital! Karena sekarang merchants Olsera bisa mendaftar secara mandiri dengan modul baru aktivasi digital payment, tanpa ribet, hanya sekali daftar!",
+    "setting": {
+      "fullwidth_thumbnail": true,
+      "new": false,
+      "single_show_excerpt": false,
+      "single_show_date": true,
+      "single_show_feature": false
+    },
+    "feature_image": "/static/whatsnew/images/ewallet-square.png"
+  },
+  {
+    "slug": "gabung-partner",
+    "title": "Cara Mudah Dapat Penghasilan, Yuk Jadi Partner Afiliasi Olsera!",
+    "date": "2021-10-06",
+    "feature_image": "/static/whatsnew/images/feature-partner-olsera-3.png",
+    "excerpt": "Ingin punya penghasilan tambahan dengan hanya bermodalkan handphone, laptop, dan internet? Sekarang dapat cuan jadi lebih gampang! Hal yang dilakukan hanyalah merekomendasikan Olsera k..."
+  },
+  {
+    "slug": "olsera-x-jurnal",
+    "title": "Aplikasi Kasir Olsera Sudah Terintegrasi dengan Jurnal.id",
+    "date": "2021-09-20",
+    "feature_image": "/static/whatsnew/images/feature-olsera-x-jurnal.jpg",
+    "excerpt": "Resmi terintegrasi dengan software akuntansi Jurnal.id, Olsera berikan kemudahan kepada pelaku UKM untuk membuat laporan keuangan secara mudah, yang ter-update secara real-time."
+  },
+  {
+    "slug": "pesanan-grabfood",
+    "title": "Kelola Pesanan GrabFood langsung dari Aplikasi Kasir Olsera",
+    "date": "2021-06-07",
+    "feature_image": "/static/whatsnew/images/feature-olsera-x-grabfood.jpg",
+    "excerpt": "Atur menu, terima notifikasi, proses pesanan hingga cek laporan kini semakin mudah."
+  },
+  {
+    "slug": "olsera-x-commbank-bizloan",
+    "title": "Pinjaman Modal Bisnis Dengan Biaya Provisi hanya 1% di CommBank BizLoan",
+    "date": "2021-06-07",
+    "feature_image": "/static/whatsnew/images/feature-olsera-x-commbank-bizloan.jpg",
+    "excerpt": "Pengajuan pinjaman CommonBank BizLoan dapat dilakukan hanya dengan KTP dan NPWP dengan biaya provisinya CUMA 1%!"
+  },
+  {
+    "slug": "online-dinein",
+    "title": "Fitur Wajib New Normal! Pesan Langsung dari Gadget Pelanggan",
+    "date": "2021-05-19",
+    "feature_image": "/static/whatsnew/images/feature-online-dinein.jpg",
+    "excerpt": "Hai Olseramania! Kabar Gembira lainnya dari Olsera untuk Anda yang menjalankan usaha rumah makan."
+  },
+  {
+    "slug": "koinworks-ramadhan",
+    "title": "Penawaran Spesial KoinWorks. Raih Modalnya, Dapatkan Keuntungannya",
+    "date": "2021-03-19",
+    "feature_image": "/static/whatsnew/images/feature-koinworks-ramadhan.png",
+    "excerpt": "Apapun bisnis, yang Anda jalankan pastinya memiliki potensi untuk jadi lebih maju. Dapatkan pinjaman modal bisnis yang Anda butuhkan untuk mengembangkan bisnis Anda melalui pinjaman Koinworks tanpa jaminan yang lebih mudah, murah, dan cepat."
+  },
+  {
+    "slug": "cicil-paket-olseramu-dengan-duha-syariah-tanpa-riba-tanpa-ribet",
+    "title": "Cicil Paket Olseramu Dengan Duha Syariah, Tanpa Riba Tanpa Ribet!",
+    "date": "2021-01-27",
+    "feature_image": "/static/whatsnew/images/feature-duhasyariah-new.png",
+    "excerpt": "Duha Syariah bekerjasama dengan Olsera untuk memberikan kemudahan pinjaman dengan berbasis syariah. Tanpa khawatir akan riba, Anda dapat membeli perangkat dari Olsera dengan pinjaman syariah yang diberikan oleh Duha Syariah."
+  },
+  {
+    "slug": "fnb-tetap-ramai-dikala-pandemi",
+    "title": "Usaha F&B tetap ramai dikala pandemi",
+    "date": "2020-12-23",
+    "feature_image": "/static/whatsnew/images/feature-fnb-online-order-new.jpg",
+    "excerpt": "Untuk Anda pemilik usaha makanan dan minuman, kami menghadirkan fitur Online Order yang dapat membantu Anda menerima pesanan secara online, Gratis! Pelanggan Anda akan dapat memesan lan..."
+  },
+  {
+    "slug": "zenwel-kado-ultah",
+    "title": "Zenwel, Kado Ulang Tahun Olsera untuk Pebisnis Jasa",
+    "date": "2020-10-07",
+    "feature_image": "/static/whatsnew/images/feature-zenwel-4-new.jpg",
+    "excerpt": "Selamat ulang tahun ke-5 Olsera. Terima kasih kepada Anda, pelanggan setia Olsera, yang senantiasa memberikan dukungan dan kepercayaan kepada seluruh jajaran tim kami. Juga berterima kasih atas semua masukan yang Anda berikan sehingga kami bisa terus berinovasi. Tanpa Anda..."
+  },
+  {
+    "slug": "olsera-partner",
+    "title": "Dapatkan penghasilan tambahan dengan menjadi partner Afiliasi Olsera",
+    "date": "2020-06-01",
+    "feature_image": "/static/whatsnew/images/feature-partnerolsera-2-new.png",
+    "excerpt": "Dapatkan penghasilan hingga Rp 1 juta per customer hanya dengan mempromosikan Olsera.com kepada siapa pun yang Anda kenal!"
+  },
+  {
+    "slug": "ewallet",
+    "title": "Aktivasi Pembayaran E-Wallet",
+    "date": "2020-02-22",
+    "feature_image": "/static/whatsnew/images/feature-ewallet-new.png",
+    "excerpt": null
+  },
+  {
+    "slug": "olseraapp",
+    "title": "Olsera Office Untuk Android dan iOS",
+    "date": "2020-02-22",
+    "feature_image": "/static/whatsnew/images/feature-olseraapp-new.png",
+    "excerpt": null
+  },
+  {
+    "slug": "delivery-takeaway",
+    "title": "Fitur Delivery & Take Away",
+    "date": "2020-02-22",
+    "feature_image": "/static/whatsnew/images/feature-delivery-new.png",
+    "excerpt": null
+  },
+  {
+    "slug": "umkm",
+    "title": "Promo #OlseraPeduliUMKM",
+    "date": "2020-06-01",
+    "feature_image": "/static/whatsnew/images/feature-umkm-new.png"
+  },
+  {
+    "slug": "bfi",
+    "title": "Dapatkan Pendanaan untuk Usaha Anda",
+    "date": "2020-06-01",
+    "feature_image": "/static/whatsnew/images/feature-bfi-new.png",
+    "excerpt": null
+  }
+]

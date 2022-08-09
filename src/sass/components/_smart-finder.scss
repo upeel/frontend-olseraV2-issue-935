@@ -1,0 +1,17 @@
+.smart-finder {
+  .el-button {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 16px;
+    background: content-box;
+    height: 40px;
+    padding: 0px 15px !important;
+    box-shadow: unset !important;
+  }
+}
+
+.smart-finder-dialog {
+  &--input {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,47 @@
+name: Staging Build
+
+on:
+  push:
+    branches:
+      - staging
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '--skip-deploy')"
+    env:
+      PATHS_INVALIDATION: '/index.html /sw.js /static/data/package-features.json /static/data/package-types.json /static/whatsnew/data.json'
+
+    steps:
+      - name: Check last commit message
+        run:
+          echo ${{ github.event.head_commit.message }}
+      
+      - name: Checkout runner
+        uses: actions/checkout@v2
+
+      - name: Deploy to S3
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_STAGING_BUCKET_NAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          SOURCE_DIR: "dist"
+
+      - name: Create CloudFront Cache Invalidation
+        uses: chetan/invalidate-cloudfront-action@master
+        # TODO create dynamic invalidation paths based on last commit message flagging
+        # --ws // whatsnew update
+        # --pf // package and features update
+        # run: |
+        #   # check last commit 
+        #   if ${{ github.event.head_commit.message }}
+        env:
+          DISTRIBUTION: ${{ secrets.AWS_STAGING_CF_DISTRIBUTION_ID }}
+          PATHS: ${{ env.PATHS_INVALIDATION }}
+          # PATHS_FROM: .updated_files
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

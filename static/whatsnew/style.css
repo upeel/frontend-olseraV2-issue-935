@@ -1,0 +1,767 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+/* line 24, sass/_variable.scss */
+.bg-f5 {
+  background: #F5F5F5 !important;
+}
+/* line 26, sass/_variable.scss */
+.bg-f5 .el-input__inner {
+  background: #F5F5F5 !important;
+}
+
+/* line 31, sass/_variable.scss */
+.font-12 {
+  font-size: 12px !important;
+}
+
+/* line 35, sass/_variable.scss */
+.font-14 {
+  font-size: 14px !important;
+}
+
+/* line 39, sass/_variable.scss */
+.font-16 {
+  font-size: 16px !important;
+}
+
+/* line 43, sass/_variable.scss */
+.font-18 {
+  font-size: 18px !important;
+}
+
+/* line 47, sass/_variable.scss */
+.font-20 {
+  font-size: 20px !important;
+}
+
+/* line 51, sass/_variable.scss */
+.font-24 {
+  font-size: 24px !important;
+}
+
+/* line 55, sass/_variable.scss */
+.font-32 {
+  font-size: 32px !important;
+}
+
+/* line 59, sass/_variable.scss */
+.font-bold {
+  font-weight: 700;
+}
+
+/* line 63, sass/_variable.scss */
+.font-semi-bold {
+  font-weight: 600;
+}
+
+/* line 67, sass/_variable.scss */
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+
+/* line 71, sass/_variable.scss */
+.p-null {
+  padding: 0 0 0 0 !important;
+}
+
+/* line 75, sass/_variable.scss */
+.p-8 {
+  padding: 8px;
+}
+
+/* line 79, sass/_variable.scss */
+.p-16 {
+  padding: 16px;
+}
+
+/* line 83, sass/_variable.scss */
+.p-24 {
+  padding: 24px;
+}
+
+/* line 87, sass/_variable.scss */
+.p-48 {
+  padding: 48px;
+}
+
+/* line 91, sass/_variable.scss */
+.px-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 96, sass/_variable.scss */
+.px-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* line 101, sass/_variable.scss */
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* line 106, sass/_variable.scss */
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* line 111, sass/_variable.scss */
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+/* line 115, sass/_variable.scss */
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+/* line 119, sass/_variable.scss */
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+/* line 123, sass/_variable.scss */
+.ml-8 {
+  margin-left: 8px;
+}
+
+/* line 127, sass/_variable.scss */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+/* line 130, sass/_variable.scss */
+.mb-0--p p {
+  margin-bottom: 0 !important;
+}
+
+/* line 136, sass/_variable.scss */
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+/* line 141, sass/_variable.scss */
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+/* line 145, sass/_variable.scss */
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+/* line 149, sass/_variable.scss */
+.mb-4 {
+  margin-bottom: 4px;
+}
+/* line 152, sass/_variable.scss */
+.mb-4--list li {
+  margin-bottom: 4px;
+}
+
+/* line 158, sass/_variable.scss */
+.mb-8 {
+  margin-bottom: 8px;
+}
+/* line 161, sass/_variable.scss */
+.mb-8--list li {
+  margin-bottom: 8px;
+}
+
+/* line 167, sass/_variable.scss */
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+/* line 171, sass/_variable.scss */
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+/* line 175, sass/_variable.scss */
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+/* line 179, sass/_variable.scss */
+.mr-4 {
+  margin-right: 4px;
+}
+
+/* line 183, sass/_variable.scss */
+.mr-8 {
+  margin-right: 8px;
+}
+
+/* line 187, sass/_variable.scss */
+.mr-16 {
+  margin-right: 16px;
+}
+
+/* line 191, sass/_variable.scss */
+.mr-24 {
+  margin-right: 24px;
+}
+
+/* line 195, sass/_variable.scss */
+.my-4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* line 200, sass/_variable.scss */
+.semi-bold {
+  font-weight: 600;
+}
+
+/* line 204, sass/_variable.scss */
+.color-body {
+  color: #272727;
+}
+
+/* line 208, sass/_variable.scss */
+.color-info {
+  color: #666;
+}
+
+/* line 212, sass/_variable.scss */
+.color-old-grey {
+  color: #666;
+}
+
+/* line 216, sass/_variable.scss */
+.box-shadow {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+/* line 220, sass/_variable.scss */
+.box-shadow-2 {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.16);
+}
+
+/* line 224, sass/_variable.scss */
+.overflow-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 234, sass/_variable.scss */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* line 239, sass/_variable.scss */
+.flex-container--wrap {
+  flex-wrap: wrap;
+}
+/* line 242, sass/_variable.scss */
+.flex-container--desktop {
+  display: flex;
+}
+/* line 245, sass/_variable.scss */
+.flex-container--center {
+  align-items: center;
+}
+
+/* line 250, sass/_variable.scss */
+.flex-grid-2 {
+  flex-basis: 50%;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  max-width: 50%;
+}
+
+/* line 257, sass/_variable.scss */
+.unset-height {
+  height: auto !important;
+}
+
+/* line 261, sass/_variable.scss */
+.unset-border-radius {
+  border-radius: 0 !important;
+}
+
+/* line 265, sass/_variable.scss */
+.border {
+  border: 1px solid;
+}
+/* line 267, sass/_variable.scss */
+.border--info {
+  border-color: #E1E2E1;
+}
+/* line 270, sass/_variable.scss */
+.border--grey {
+  border-color: #EEEEEE;
+}
+
+/* line 275, sass/_variable.scss */
+.pos-relative {
+  position: relative;
+}
+
+/* line 279, sass/_variable.scss */
+.block {
+  display: block !important;
+}
+
+/* line 283, sass/_variable.scss */
+.m-null {
+  margin: 0 0 0 0 !important;
+}
+
+/* line 287, sass/_variable.scss */
+.mw-348 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 348px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 296, sass/_variable.scss */
+.mw-460 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 460px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 305, sass/_variable.scss */
+.mw-420 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 420px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 314, sass/_variable.scss */
+.mw-680 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 680px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 323, sass/_variable.scss */
+.mw-760 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 760px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 332, sass/_variable.scss */
+.mw-980 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 980px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 341, sass/_variable.scss */
+.mw-1020 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 1020px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 350, sass/_variable.scss */
+.mw-1056 {
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 1056px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 359, sass/_variable.scss */
+.table-handler-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 365, sass/_variable.scss */
+.flex-align-items {
+  align-items: center;
+}
+
+/* line 369, sass/_variable.scss */
+.color-white {
+  color: #fff !important;
+}
+/* line 371, sass/_variable.scss */
+.color-white--bg {
+  background-color: #fff !important;
+}
+
+/* line 376, sass/_variable.scss */
+.color-warning {
+  color: #FF931E !important;
+}
+/* line 378, sass/_variable.scss */
+.color-warning--bg {
+  background-color: #FF931E !important;
+}
+/* line 381, sass/_variable.scss */
+.color-warning--soft {
+  color: #FFF2E3 !important;
+}
+/* line 383, sass/_variable.scss */
+.color-warning--soft--bg {
+  background: #FFF2E3 !important;
+}
+
+/* line 389, sass/_variable.scss */
+.color-primary {
+  color: #0085CD !important;
+}
+/* line 391, sass/_variable.scss */
+.color-primary--strong {
+  color: #40C4FF;
+}
+/* line 394, sass/_variable.scss */
+.color-primary--bg {
+  background-color: #0085CD !important;
+}
+/* line 397, sass/_variable.scss */
+.color-primary--soft {
+  color: #E4F8FF !important;
+}
+/* line 399, sass/_variable.scss */
+.color-primary--soft--bg {
+  background: #E4F8FF !important;
+}
+
+/* line 405, sass/_variable.scss */
+.color-green {
+  color: #6EBE46 !important;
+}
+/* line 407, sass/_variable.scss */
+.color-green--bg {
+  background-color: #6EBE46 !important;
+}
+/* line 410, sass/_variable.scss */
+.color-green--dark {
+  color: #6EBE46;
+}
+/* line 413, sass/_variable.scss */
+.color-green--soft {
+  color: #F2FFEC !important;
+}
+/* line 415, sass/_variable.scss */
+.color-green--soft--bg {
+  background: #F2FFEC !important;
+}
+
+/* line 421, sass/_variable.scss */
+.color-blue-active {
+  color: #2BC5F4;
+}
+/* line 423, sass/_variable.scss */
+.color-blue-active--bg {
+  background-color: #2BC5F4 !important;
+}
+
+/* line 428, sass/_variable.scss */
+.color-grey {
+  color: #EEEEEE !important;
+}
+/* line 430, sass/_variable.scss */
+.color-grey--soft {
+  color: #FAFAFA !important;
+}
+/* line 432, sass/_variable.scss */
+.color-grey--soft--bg {
+  background-color: #FAFAFA !important;
+}
+
+/* line 438, sass/_variable.scss */
+.color-success {
+  color: #67C23A !important;
+}
+
+/* line 442, sass/_variable.scss */
+.color-black {
+  color: #000000;
+}
+
+/* line 446, sass/_variable.scss */
+.color-whatsapp {
+  color: var(--whatsapp);
+}
+
+/* line 450, sass/_variable.scss */
+.radius-null {
+  border-radius: 0 !important;
+}
+
+/* line 454, sass/_variable.scss */
+.el-table .warning-row {
+  background: oldlace;
+}
+
+/* line 458, sass/_variable.scss */
+.chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 100px;
+  border: 1px solid;
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+}
+/* line 466, sass/_variable.scss */
+.chip--primary, .chip--pos {
+  border-color: #40C4FF;
+  color: #40C4FF;
+}
+/* line 471, sass/_variable.scss */
+.chip--ol {
+  border-color: #6EBE46;
+  color: #6EBE46;
+}
+/* line 475, sass/_variable.scss */
+.chip--android {
+  border-color: #3DDB85;
+  color: #3DDB85;
+}
+/* line 479, sass/_variable.scss */
+.chip--default {
+  border-color: #272727;
+  color: #272727;
+}
+
+/* line 485, sass/_variable.scss */
+.radius-10 {
+  border-radius: 10px;
+}
+
+/* line 489, sass/_variable.scss */
+.radius-16 {
+  border-radius: 16px;
+}
+
+/* line 493, sass/_variable.scss */
+.bg-primary {
+  background-color: #0085CD !important;
+}
+/* line 495, sass/_variable.scss */
+.bg-primary--dialog {
+  background-color: #0085CD !important;
+  color: #fff;
+}
+
+/* line 501, sass/_variable.scss */
+.bg-white {
+  background: #fff;
+}
+
+/* line 505, sass/_variable.scss */
+.d-block {
+  display: block;
+}
+
+/* line 509, sass/_variable.scss */
+.w-fit {
+  width: 100%;
+}
+
+/* line 513, sass/_variable.scss */
+.absolute-top-right {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+/* line 520, sass/_variable.scss */
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+/* line 524, sass/_variable.scss */
+.flex-container--wrap {
+  flex-wrap: wrap !important;
+}
+/* line 527, sass/_variable.scss */
+.flex-container--top {
+  align-items: flex-start;
+}
+
+/* line 532, sass/_variable.scss */
+.font-bold {
+  font-weight: bold;
+}
+
+/* line 536, sass/_variable.scss */
+.font-32 {
+  font-size: 32px;
+}
+
+/* line 540, sass/_variable.scss */
+.white {
+  color: var(--white);
+}
+
+/* line 544, sass/_variable.scss */
+.blue-active {
+  color: var(--blue-active);
+}
+/* line 546, sass/_variable.scss */
+.blue-active--bg {
+  background-color: var(--blue-active);
+}
+
+/* line 551, sass/_variable.scss */
+.btn {
+  padding: 9px;
+  background-color: var(--blue-active);
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+}
+/* line 559, sass/_variable.scss */
+.btn--block {
+  width: 100%;
+  display: block;
+}
+/* line 563, sass/_variable.scss */
+.btn--flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 571, sass/_variable.scss */
+  .text-right-desktop {
+    text-align: right;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 577, sass/_variable.scss */
+  .flex-container--desktop {
+    display: block;
+  }
+}
+/* line 5, sass/style.scss */
+:root {
+  /* Colors: */
+  --white: #FFFFFF;
+  --gray-border-with-shadow: #EEEEEE;
+  --black-view: #272727;
+  --gray-placeholder: #767676;
+  --gray-icon: #AFB0AF;
+  --blue-main: #0085CD;
+  --red: #F44336;
+  --gray-border: #E1E2E1;
+  --gray-background: #F5F5F5;
+  --black: #000000;
+  --blue-vivid: #6FCFEE;
+  --blue-active: #2BC5F4;
+  --green-dark: #6EBE46;
+  --orange: #FF931E;
+  --gray-soft: #FAFAFA;
+  --blue-soft: #E4F8FF;
+  --red-soft: #FEE8E6;
+  --orange-soft: #FFF2E3;
+  --green: #A1F176;
+  --green-soft: #F2FFEC;
+  --yellow: #FFDF00;
+  --whatsapp: #128C7E;
+  /* Font/text values */
+  --unnamed-font-family-nunito: Nunito;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-bold: bold;
+}
+
+/* line 38, sass/style.scss */
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 43, sass/style.scss */
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+}
+
+/* line 49, sass/style.scss */
+ol, ul {
+  padding-left: 18px;
+}
+/* line 51, sass/style.scss */
+ol li, ul li {
+  margin-bottom: 16px;
+}
+
+/* line 56, sass/style.scss */
+body {
+  font-family: 'Nunito', 'Helvetica Neue', sans-serif;
+  color: var(--black-view);
+  line-height: 1.4;
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: 16px;
+}
+
+/* line 64, sass/style.scss */
+p {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+/* line 69, sass/style.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 73, sass/style.scss */
+.list-icon {
+  list-style-type: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+/* line 77, sass/style.scss */
+.list-icon li {
+  display: flex;
+  align-items: flex-start;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+/* line 83, sass/style.scss */
+.list-icon .icon {
+  flex-basis: 22px;
+  min-width: 22px;
+  max-width: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 2, sass/_rwd.scss */
+  .flex-container--desktop {
+    display: block;
+  }
+}

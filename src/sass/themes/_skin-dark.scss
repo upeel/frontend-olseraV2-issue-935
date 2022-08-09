@@ -1,0 +1,131 @@
+// Social Colors
+$facebook: #3b5998;
+$twitter: #00aced;
+$linkedin: #4875b4;
+$google-plus: #d34836;
+$flickr: #ff0084;
+$tumblr: #32506d;
+$xing: #026466;
+$github: #4183c4;
+$html5: #e34f26;
+$openid: #f78c40;
+$stack-overflow: #fe7a15;
+$youtube: #b00;
+$css3: #0170ba;
+$dribbble: #ea4c89;
+$google-plus: #bb4b39;
+$instagram: #517fa4;
+$pinterest: #cb2027;
+$vk: #45668e;
+$yahoo: #400191;
+$behance: #1769ff;
+$dropbox: #007ee5;
+$reddit: #ff4500;
+$spotify: #7ab800;
+$vine: #00bf8f;
+$foursquare: #1073af;
+$vimeo: #aad450;
+// Devin Color
+$wrapper-bg: #eee;
+$devin-dark: #FAFAFA;
+$devin-dark-more: #111;
+$sidebar-devin:#5CB4FF;
+$sidebar-devin-text:#000000;
+$text-devin:#222;
+$treeview-background: rgb(255, 255, 255);
+/*
+ * Skin: Dark
+ * ----------
+ */
+#app {
+  background: #fff;
+  min-height: 100vh;
+}
+.skin-dark {
+  .main-header {
+    .navbar {
+      background-color: $sidebar-devin;
+      .nav {
+        >li>a {
+          color: $text-devin;
+          &:hover,
+          &:active,
+          &:focus {
+            // background: rgba(0, 0, 0, 0.1);
+            color: #f6f6f6;
+          }
+        }
+        .open>a {
+          // background: rgba(0, 0, 0, 0.1);
+          color: #f6f6f6;
+          &:hover,
+          &:focus {
+            // background: rgba(0, 0, 0, 0.1);
+            color: #f6f6f6;
+          }
+        }
+        >.active>a {
+          // background: rgba(0, 0, 0, 0.1);
+          color: #f6f6f6;
+        }
+      }
+      .sidebar-toggle {
+        color: #fff;
+      }
+    }
+    .logo {
+      background-color: $devin-dark;
+      color: $sidebar-devin-text;
+      box-shadow: -5px 4px 20px -4px rgba(0, 0, 0, 0.5);
+    }
+    li.user-header {
+      background-color: $sidebar-devin;
+    }
+  } // Breadcrumb background color setting
+  // .content-wrapper {
+  //   background: $wrapper-bg;
+  // }
+  .sidebar a {
+    color: $sidebar-devin-text;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .treeview-menu>li {
+    >a {
+      color: $sidebar-devin-text;
+    }
+    &.active>a,
+    >a:hover {
+      color: #000000;
+    }
+  }
+  &.layout-top-nav .main-header>.logo {
+    background-color: $sidebar-devin;
+    color: $text-devin;
+    border-bottom: 0 solid transparent;
+    &:hover {
+      background-color: #3b8ab8;
+    }
+  }
+  .main-footer {
+    color: #333;
+    a {
+      color: #333;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .skin-devin .main-header .navbar .dropdown-menu li {
+    &.divider {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    a {
+      color: #fff;
+      &:hover {
+        background: $sidebar-devin;
+      }
+    }
+  }
+} // sidebar colapse

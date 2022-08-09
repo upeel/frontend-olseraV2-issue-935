@@ -1,0 +1,29 @@
+.digipayment-container {
+  &:hover {
+    .img-logo-digipayment {
+      mix-blend-mode: unset;
+    }
+  }
+}
+
+.img-logo-digipayment {
+  max-width: 426px;
+  height: auto;
+  mix-blend-mode: luminosity;
+  transition: all 0.3s ease-in-out;
+}
+
+.color-grabfood {
+  color: $colorGrabFood;
+  &--bg {
+    background-color: $colorGrabFood;
+    border-color: $colorGrabFood;
+    color: #fff;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: rgba($colorGrabFood, 0.8);
+      border-color: $colorGrabFood;
+    }
+  }
+}

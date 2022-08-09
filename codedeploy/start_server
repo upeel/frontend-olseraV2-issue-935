@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# check dulu server mana untuk proses atau untuk queue
+file="/etc/supervisor/conf.d/laravel-worker.conf"
+if [ -e "$file" ]
+then
+	pkill -f supervisord
+	/usr/bin/supervisord -c /etc/supervisord.conf
+	/usr/bin/supervisorctl reread
+	/usr/bin/supervisorctl update
+else
+	service nginx start
+	service php-fpm start
+fi
+

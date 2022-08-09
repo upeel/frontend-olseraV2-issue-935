@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["ABWo"],{ABWo:function(e,n,t){"use strict";t.r(n);var o=t("KHd+"),i=Object(o.a)({},function(){var e=this.$createElement,n=this._self._c||e;return n("div",[n("router-view")],1)},[],!1,null,null,null);i.options.__file="Index.vue";n.default=i.exports}}]);
